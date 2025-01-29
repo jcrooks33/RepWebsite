@@ -7,9 +7,9 @@ export default function Signup() {
 // Example: One placeholder "Rep 1 (XX)" for each state
 const representatives = {
   "alabama": [
-    { label: "Moore, Barry", value: "Moore" },
+    { label: "Moore, Barry", value: "Moore (AL)" },
     { label: "Figures, Shomari", value: "Figures" },
-    { label: "Rogers, Mike", value: "Rogers" },
+    { label: "Rogers, Mike", value: "Rogers (AL)" },
     { label: "Aderholt, Robert", value: "Aderholt" },
     { label: "Strong, Dale", value: "Strong" },
     { label: "Palmer, Gary", value: "Palmer" },
@@ -23,28 +23,28 @@ const representatives = {
     { label: "Crane, Elijah", value: "Crane" },
     { label: "Ansari, Yassamin", value: "Ansari" },
     { label: "Stanton, Greg", value: "Stanton" },
-    { label: "Biggs, Andy", value: "Biggs" },
+    { label: "Biggs, Andy", value: "Biggs (AZ)" },
     { label: "Ciscomani, Juan", value: "Ciscomani" },
     { label: "Grijalva, Raul", value: "Grijalva" },
-    { label: "Hamadeh, Abraham", value: "Hamadeh" },
+    { label: "Hamadeh, Abraham", value: "Hamadeh (AZ)" },
     { label: "Gosar, Paul", value: "Gosar" }
   ],
   "arkansas": [
     { label: "Crawford, Eric", value: "Crawford" },
-    { label: "Hill, J.", value: "Hill" },
+    { label: "Hill, J.", value: "Hill (AR)" },
     { label: "Womack, Steve", value: "Womack" },
     { label: "Westerman, Bruce", value: "Westerman" }
   ],
   "california": [
     { label: "LaMalfa, Doug", value: "LaMalfa" },
     { label: "Huffman, Jared", value: "Huffman" },
-    { label: "Kiley, Kevin", value: "Kiley" },
-    { label: "Thompson, Mike", value: "Thompson" },
+    { label: "Kiley, Kevin", value: "Kiley (CA)" },
+    { label: "Thompson, Mike", value: "Thompson (CA)" },
     { label: "McClintock, Tom", value: "McClintock" },
     { label: "Bera, Ami", value: "Bera" },
     { label: "Matsui, Doris", value: "Matsui" },
     { label: "Garamendi, John", value: "Garamendi" },
-    { label: "Harder, Josh", value: "Harder" },
+    { label: "Harder, Josh", value: "Harder (CA)" },
     { label: "DeSaulnier, Mark", value: "DeSaulnier" },
     { label: "Pelosi, Nancy", value: "Pelosi" },
     { label: "Simon, Lateefah", value: "Simon" },
@@ -70,16 +70,16 @@ const representatives = {
     { label: "Sherman, Brad", value: "Sherman" },
     { label: "Aguilar, Pete", value: "Aguilar" },
     { label: "Gomez, Jimmy", value: "Gomez" },
-    { label: "Torres, Norma", value: "Torres" },
+    { label: "Torres, Norma", value: "Torres (CA)" },
     { label: "Lieu, Ted", value: "Lieu" },
     { label: "Kamlager-Dove, Sydney", value: "Kamlager-Dove" },
     { label: "Sanchez, Linda", value: "Sanchez" },
     { label: "Takano, Mark", value: "Takano" },
     { label: "Kim, Young", value: "Kim" },
     { label: "Calvert, Ken", value: "Calvert" },
-    { label: "Garcia, Robert", value: "Garcia" },
+    { label: "Garcia, Robert", value: "Garcia (CA)" },
     { label: "Waters, Maxine", value: "Waters" },
-    { label: "Barragan, Nanette", value: "Barragan" },
+    { label: "Barragán, Nanette", value: "Barragán" },
     { label: "Tran, Derek", value: "Tran" },
     { label: "Correa, J.", value: "Correa" },
     { label: "Min, Dave", value: "Min" },
@@ -92,15 +92,15 @@ const representatives = {
   "colorado": [
     { label: "DeGette, Diana", value: "DeGette" },
     { label: "Neguse, Joe", value: "Neguse" },
-    { label: "Hurd, Jeff", value: "Hurd" },
+    { label: "Hurd, Jeff", value: "Hurd (CO)" },
     { label: "Boebert, Lauren", value: "Boebert" },
     { label: "Crank, Jeff", value: "Crank" },
     { label: "Crow, Jason", value: "Crow" },
     { label: "Pettersen, Brittany", value: "Pettersen" },
-    { label: "Evans, Gabe", value: "Evans" }
+    { label: "Evans, Gabe", value: "Evans (CO)" }
   ],
   "connecticut": [
-    { label: "Larson, John", value: "Larson" },
+    { label: "Larson, John", value: "Larson (CT)" },
     { label: "Courtney, Joe", value: "Courtney" },
     { label: "DeLauro, Rosa", value: "DeLauro" },
     { label: "Himes, James", value: "Himes" },
@@ -111,49 +111,49 @@ const representatives = {
   ],
   "florida": [
     { label: "Vacancy", value: "Vacancy" },
-    { label: "Dunn, Neal", value: "Dunn" },
+    { label: "Dunn, Neal", value: "Dunn (FL)" },
     { label: "Cammack, Kat", value: "Cammack" },
-    { label: "Bean, Aaron", value: "Bean" },
+    { label: "Bean, Aaron", value: "Bean (FL)" },
     { label: "Rutherford, John", value: "Rutherford" },
     { label: "Vacancy", value: "Vacancy" },
     { label: "Mills, Cory", value: "Mills" },
     { label: "Haridopolos, Mike", value: "Haridopolos" },
     { label: "Soto, Darren", value: "Soto" },
     { label: "Frost, Maxwell", value: "Frost" },
-    { label: "Webster, Daniel", value: "Webster" },
+    { label: "Webster, Daniel", value: "Webster FL)" },
     { label: "Bilirakis, Gus", value: "Bilirakis" },
     { label: "Luna, Anna Paulina", value: "Luna" },
-    { label: "Castor, Kathy", value: "Castor" },
-    { label: "Lee, Laurel", value: "Lee" },
+    { label: "Castor, Kathy", value: "Castor (FL)" },
+    { label: "Lee, Laurel", value: "Lee (FL)" },
     { label: "Buchanan, Vern", value: "Buchanan" },
     { label: "Steube, W.", value: "Steube" },
-    { label: "Franklin, Scott", value: "Franklin" },
+    { label: "Franklin, Scott", value: "Franklin, Scott" },
     { label: "Donalds, Byron", value: "Donalds" },
     { label: "Cherfilus-McCormick, Sheila", value: "Cherfilus-McCormick" },
     { label: "Mast, Brian", value: "Mast" },
-    { label: "Frankel, Lois", value: "Frankel" },
+    { label: "Frankel, Lois", value: "Frankel, Lois" },
     { label: "Moskowitz, Jared", value: "Moskowitz" },
-    { label: "Wilson, Frederica", value: "Wilson" },
+    { label: "Wilson, Frederica", value: "Wilson (FL)" },
     { label: "Wasserman Schultz, Debbie", value: "Wasserman Schultz" },
     { label: "Diaz-Balart, Mario", value: "Diaz-Balart" },
     { label: "Salazar, Maria", value: "Salazar" },
     { label: "Gimenez, Carlos", value: "Gimenez" }
   ],
   "georgia": [
-    { label: "Carter, Earl", value: "Carter" },
+    { label: "Carter, Earl", value: "Carter (GA)" },
     { label: "Bishop, Sanford", value: "Bishop" },
     { label: "Jack, Brian", value: "Jack" },
-    { label: "Johnson, Henry", value: "Johnson" },
-    { label: "Williams, Nikema", value: "Williams" },
+    { label: "Johnson, Henry", value: "Johnson (GA)" },
+    { label: "Williams, Nikema", value: "Williams (GA)" },
     { label: "McBath, Lucy", value: "McBath" },
     { label: "McCormick, Richard", value: "McCormick" },
-    { label: "Scott, Austin", value: "Scott" },
+    { label: "Scott, Austin", value: "Scott, Austin" },
     { label: "Clyde, Andrew", value: "Clyde" },
     { label: "Collins, Mike", value: "Collins" },
     { label: "Loudermilk, Barry", value: "Loudermilk" },
     { label: "Allen, Rick", value: "Allen" },
-    { label: "Scott, David", value: "Scott" },
-    { label: "Greene, Marjorie", value: "Greene" }
+    { label: "Scott, David", value: "Scott, David" },
+    { label: "Greene, Marjorie", value: "Greene (GA)" }
   ],
   "hawaii": [
     { label: "Case, Ed", value: "Case" },
@@ -164,13 +164,13 @@ const representatives = {
     { label: "Simpson, Michael", value: "Simpson" }
   ],
   "illinois": [
-    { label: "Jackson, Jonathan", value: "Jackson" },
-    { label: "Kelly, Robin", value: "Kelly" },
+    { label: "Jackson, Jonathan", value: "Jackson (IL)" },
+    { label: "Kelly, Robin", value: "Kelly (IL)" },
     { label: "Ramirez, Delia", value: "Ramirez" },
-    { label: "Garcia, Jesus", value: "Garcia" },
+    { label: "Garcia, Jesus", value: "García (IL)" },
     { label: "Quigley, Mike", value: "Quigley" },
     { label: "Casten, Sean", value: "Casten" },
-    { label: "Davis, Danny", value: "Davis" },
+    { label: "Davis, Danny", value: "Davis (IL)" },
     { label: "Krishnamoorthi, Raja", value: "Krishnamoorthi" },
     { label: "Schakowsky, Janice", value: "Schakowsky" },
     { label: "Schneider, Bradley", value: "Schneider" },
@@ -178,7 +178,7 @@ const representatives = {
     { label: "Bost, Mike", value: "Bost" },
     { label: "Budzinski, Nikki", value: "Budzinski" },
     { label: "Underwood, Lauren", value: "Underwood" },
-    { label: "Miller, Mary", value: "Miller" },
+    { label: "Miller, Mary", value: "Miller (IL)" },
     { label: "LaHood, Darin", value: "LaHood" },
     { label: "Sorensen, Eric", value: "Sorensen" }
   ],
@@ -196,13 +196,13 @@ const representatives = {
   "iowa": [
     { label: "Miller-Meeks, Mariannette", value: "Miller-Meeks" },
     { label: "Hinson, Ashley", value: "Hinson" },
-    { label: "Nunn, Zachary", value: "Nunn" },
+    { label: "Nunn, Zachary", value: "Nunn (IA)" },
     { label: "Feenstra, Randy", value: "Feenstra" }
   ],
   "kansas": [
     { label: "Mann, Tracey", value: "Mann" },
     { label: "Schmidt, Derek", value: "Schmidt" },
-    { label: "Davids, Sharice", value: "Davids" },
+    { label: "Davids, Sharice", value: "Davids (KS)" },
     { label: "Estes, Ron", value: "Estes" }
   ],
   "kentucky": [
@@ -210,23 +210,23 @@ const representatives = {
     { label: "Guthrie, Brett", value: "Guthrie" },
     { label: "McGarvey, Morgan", value: "McGarvey" },
     { label: "Massie, Thomas", value: "Massie" },
-    { label: "Rogers, Harold", value: "Rogers" },
+    { label: "Rogers, Harold", value: "Rogers (KY)" },
     { label: "Barr, Andy", value: "Barr" }
   ],
   "louisiana": [
     { label: "Scalise, Steve", value: "Scalise" },
-    { label: "Carter, Troy", value: "Carter" },
-    { label: "Higgins, Clay", value: "Higgins" },
-    { label: "Johnson, Mike", value: "Johnson" },
+    { label: "Carter, Troy", value: "Carter (LA)" },
+    { label: "Higgins, Clay", value: "Higgins (LA)" },
+    { label: "Johnson, Mike", value: "Johnson (LA)" },
     { label: "Letlow, Julia", value: "Letlow" },
     { label: "Fields, Cleo", value: "Fields" }
   ],
   "maine": [
     { label: "Pingree, Chellie", value: "Pingree" },
-    { label: "Golden, Jared", value: "Golden" }
+    { label: "Golden, Jared", value: "Golden (ME)" }
   ],
   "maryland": [
-    { label: "Harris, Andy", value: "Harris" },
+    { label: "Harris, Andy", value: "Harris (MD)" },
     { label: "Olszewski, Johnny", value: "Olszewski" },
     { label: "Elfreth, Sarah", value: "Elfreth" },
     { label: "Ivey, Glenn", value: "Ivey" },
@@ -240,7 +240,7 @@ const representatives = {
     { label: "McGovern, James", value: "McGovern" },
     { label: "Trahan, Lori", value: "Trahan" },
     { label: "Auchincloss, Jake", value: "Auchincloss" },
-    { label: "Clark, Katherine", value: "Clark" },
+    { label: "Clark, Katherine", value: "Clark (MA)" },
     { label: "Moulton, Seth", value: "Moulton" },
     { label: "Pressley, Ayanna", value: "Pressley" },
     { label: "Lynch, Stephen", value: "Lynch" },
@@ -272,8 +272,8 @@ const representatives = {
     { label: "Stauber, Pete", value: "Stauber" }
   ],
   "mississippi": [
-    { label: "Kelly, Trent", value: "Kelly" },
-    { label: "Thompson, Bennie", value: "Thompson" },
+    { label: "Kelly, Trent", value: "Kelly (MS)" },
+    { label: "Thompson, Bennie", value: "Thompson (MS)" },
     { label: "Guest, Michael", value: "Guest" },
     { label: "Ezell, Mike", value: "Ezell" }
   ],
@@ -285,7 +285,7 @@ const representatives = {
     { label: "Cleaver, Emanuel", value: "Cleaver" },
     { label: "Graves, Sam", value: "Graves" },
     { label: "Burlison, Eric", value: "Burlison" },
-    { label: "Smith, Jason", value: "Smith" }
+    { label: "Smith, Jason", value: "Smith (MO)" }
   ],
   "montana": [
     { label: "Zinke, Ryan", value: "Zinke" },
@@ -294,12 +294,12 @@ const representatives = {
   "nebraska": [
     { label: "Flood, Mike", value: "Flood" },
     { label: "Bacon, Don", value: "Bacon" },
-    { label: "Smith, Adrian", value: "Smith" }
+    { label: "Smith, Adrian", value: "Smith (NE)" }
   ],
   "nevada": [
     { label: "Titus, Dina", value: "Titus" },
-    { label: "Amodei, Mark", value: "Amodei" },
-    { label: "Lee, Susie", value: "Lee" },
+    { label: "Amodei, Mark", value: "Amodei (NV)" },
+    { label: "Lee, Susie", value: "Lee (NV)" },
     { label: "Horsford, Steven", value: "Horsford" }
   ],
   "newhampshire": [
@@ -310,7 +310,7 @@ const representatives = {
     { label: "Norcross, Donald", value: "Norcross" },
     { label: "Van Drew, Jefferson", value: "Van Drew" },
     { label: "Conaway, Herbert", value: "Conaway" },
-    { label: "Smith, Christopher", value: "Smith" },
+    { label: "Smith, Christopher", value: "Smith (NJ)" },
     { label: "Gottheimer, Josh", value: "Gottheimer" },
     { label: "Pallone, Frank", value: "Pallone" },
     { label: "Kean, Thomas", value: "Kean" },
@@ -334,40 +334,40 @@ const representatives = {
     { label: "Meng, Grace", value: "Meng" },
     { label: "Velazquez, Nydia", value: "Velazquez" },
     { label: "Jeffries, Hakeem", value: "Jeffries" },
-    { label: "Clarke, Yvette", value: "Clarke" },
-    { label: "Goldman, Daniel", value: "Goldman" },
+    { label: "Clarke, Yvette", value: "Clarke (NY)" },
+    { label: "Goldman, Daniel", value: "Goldman (NY)" },
     { label: "Malliotakis, Nicole", value: "Malliotakis" },
     { label: "Nadler, Jerrold", value: "Nadler" },
     { label: "Espaillat, Adriano", value: "Espaillat" },
     { label: "Ocasio-Cortez, Alexandria", value: "Ocasio-Cortez" },
-    { label: "Torres, Ritchie", value: "Torres" },
+    { label: "Torres, Ritchie", value: "Torres (NY)" },
     { label: "Latimer, George", value: "Latimer" },
     { label: "Lawler, Michael", value: "Lawler" },
     { label: "Ryan, Patrick", value: "Ryan" },
-    { label: "Riley, Josh", value: "Riley" },
+    { label: "Riley, Josh", value: "Riley (NY)" },
     { label: "Tonko, Paul", value: "Tonko" },
     { label: "Stefanik, Elise", value: "Stefanik" },
     { label: "Mannion, John", value: "Mannion" },
     { label: "Langworthy, Nicholas", value: "Langworthy" },
     { label: "Tenney, Claudia", value: "Tenney" },
     { label: "Morelle, Joseph", value: "Morelle" },
-    { label: "Kennedy, Timothy", value: "Kennedy" }
+    { label: "Kennedy, Timothy", value: "Kennedy (NY)" }
   ],
   "northcarolina": [
-    { label: "Davis, Donald", value: "Davis" },
+    { label: "Davis, Donald", value: "Davis (NC)" },
     { label: "Ross, Deborah", value: "Ross" },
     { label: "Murphy, Gregory", value: "Murphy" },
     { label: "Foushee, Valerie", value: "Foushee" },
     { label: "Foxx, Virginia", value: "Foxx" },
     { label: "McDowell, Addison", value: "McDowell" },
     { label: "Rouzer, David", value: "Rouzer" },
-    { label: "Harris, Mark", value: "Harris" },
+    { label: "Harris, Mark", value: "Harris (NC)" },
     { label: "Hudson, Richard", value: "Hudson" },
     { label: "Harrigan, Pat", value: "Harrigan" },
     { label: "Edwards, Chuck", value: "Edwards" },
     { label: "Adams, Alma", value: "Adams" },
     { label: "Knott, Brad", value: "Knott" },
-    { label: "Moore, Tim", value: "Moore" }
+    { label: "Moore, Tim", value: "Moore (NC)" }
   ],
   "northdakota": [
     { label: "Fedorchak, Julie", value: "Fedorchak" }
@@ -379,18 +379,18 @@ const representatives = {
     { label: "Jordan, Jim", value: "Jordan" },
     { label: "Latta, Robert", value: "Latta" },
     { label: "Rulli, Michael A.", value: "Rulli" },
-    { label: "Miller, Max", value: "Miller" },
+    { label: "Miller, Max", value: "Miller (OH)" },
     { label: "Davidson, Warren", value: "Davidson" },
     { label: "Kaptur, Marcy", value: "Kaptur" },
-    { label: "Turner, Michael", value: "Turner" },
+    { label: "Turner, Michael", value: "Turner (OH)" },
     { label: "Brown, Shontel", value: "Brown" },
     { label: "Balderson, Troy", value: "Balderson" },
     { label: "Sykes, Emilia", value: "Sykes" },
-    { label: "Joyce, David", value: "Joyce" },
+    { label: "Joyce, David", value: "Joyce (OH)" },
     { label: "Carey, Mike", value: "Carey" }
   ],
   "oklahoma": [
-    { label: "Hern, Kevin", value: "Hern" },
+    { label: "Hern, Kevin", value: "Hern (OK)" },
     { label: "Brecheen, Josh", value: "Brecheen" },
     { label: "Lucas, Frank", value: "Lucas" },
     { label: "Cole, Tom", value: "Cole" },
@@ -400,15 +400,15 @@ const representatives = {
     { label: "Bonamici, Suzanne", value: "Bonamici" },
     { label: "Bentz, Cliff", value: "Bentz" },
     { label: "Dexter, Maxine", value: "Dexter" },
-    { label: "Hoyle, Val", value: "Hoyle" },
+    { label: "Hoyle, Val", value: "Hoyle (OR)" },
     { label: "Bynum, Janelle", value: "Bynum" },
     { label: "Salinas, Andrea", value: "Salinas" }
   ],
   "pennsylvania": [
     { label: "Fitzpatrick, Brian", value: "Fitzpatrick" },
-    { label: "Boyle, Brendan", value: "Boyle" },
-    { label: "Evans, Dwight", value: "Evans" },
-    { label: "Dean, Madeleine", value: "Dean" },
+    { label: "Boyle, Brendan", value: "Boyle (PA)" },
+    { label: "Evans, Dwight", value: "Evans (PA)" },
+    { label: "Dean, Madeleine", value: "Dean (PA)" },
     { label: "Scanlon, Mary Gay", value: "Scanlon" },
     { label: "Houlahan, Chrissy", value: "Houlahan" },
     { label: "Mackenzie, Ryan", value: "Mackenzie" },
@@ -416,11 +416,11 @@ const representatives = {
     { label: "Meuser, Daniel", value: "Meuser" },
     { label: "Perry, Scott", value: "Perry" },
     { label: "Smucker, Lloyd", value: "Smucker" },
-    { label: "Lee, Summer", value: "Lee" },
-    { label: "Joyce, John", value: "Joyce" },
+    { label: "Lee, Summer", value: "Lee (PA)" },
+    { label: "Joyce, John", value: "Joyce (PA)" },
     { label: "Reschenthaler, Guy", value: "Reschenthaler" },
-    { label: "Thompson, Glenn", value: "Thompson" },
-    { label: "Kelly, Mike", value: "Kelly" },
+    { label: "Thompson, Glenn", value: "Thompson (PA)" },
+    { label: "Kelly, Mike", value: "Kelly (PA)" },
     { label: "Deluzio, Christopher", value: "Deluzio" }
   ],
   "rhodeisland": [
@@ -429,15 +429,15 @@ const representatives = {
   ],
   "southcarolina": [
     { label: "Mace, Nancy", value: "Mace" },
-    { label: "Wilson, Joe", value: "Wilson" },
-    { label: "Biggs, Sheri", value: "Biggs" },
+    { label: "Wilson, Joe", value: "Wilson (SC)" },
+    { label: "Biggs, Sheri", value: "Biggs (SC)" },
     { label: "Timmons, William", value: "Timmons" },
     { label: "Norman, Ralph", value: "Norman" },
     { label: "Clyburn, James", value: "Clyburn" },
     { label: "Fry, Russell", value: "Fry" }
   ],
   "southdakota": [
-    { label: "Johnson, Dusty", value: "Johnson" }
+    { label: "Johnson, Dusty", value: "Johnson (SD)" }
   ],
   "tennessee": [
     { label: "Harshbarger, Diana", value: "Harshbarger" },
@@ -446,7 +446,7 @@ const representatives = {
     { label: "DesJarlais, Scott", value: "DesJarlais" },
     { label: "Ogles, Andrew", value: "Ogles" },
     { label: "Rose, John", value: "Rose" },
-    { label: "Green, Mark", value: "Green" },
+    { label: "Green, Mark", value: "Green (TN)" },
     { label: "Kustoff, David", value: "Kustoff" },
     { label: "Cohen, Steve", value: "Cohen" }
   ],
@@ -459,41 +459,41 @@ const representatives = {
     { label: "Ellzey, Jake", value: "Ellzey" },
     { label: "Fletcher, Lizzie", value: "Fletcher" },
     { label: "Luttrell, Morgan", value: "Luttrell" },
-    { label: "Green, Al", value: "Green" },
+    { label: "Green, Al", value: "Green, Al (TX)" },
     { label: "McCaul, Michael", value: "McCaul" },
     { label: "Pfluger, August", value: "Pfluger" },
-    { label: "Goldman, Craig", value: "Goldman" },
-    { label: "Jackson, Ronny", value: "Jackson" },
-    { label: "Weber, Randy", value: "Weber" },
+    { label: "Goldman, Craig", value: "Goldman (TX)" },
+    { label: "Jackson, Ronny", value: "Jackson (TX)" },
+    { label: "Weber, Randy", value: "Weber (TX)" },
     { label: "De La Cruz, Monica", value: "De La Cruz" },
     { label: "Escobar, Veronica", value: "Escobar" },
     { label: "Sessions, Pete", value: "Sessions" },
-    { label: "Turner, Sylvester", value: "Turner" },
+    { label: "Turner, Sylvester", value: "Turner (TX)" },
     { label: "Arrington, Jodey", value: "Arrington" },
-    { label: "Castro, Joaquin", value: "Castro" },
+    { label: "Castro, Joaquin", value: "Castro (TX)" },
     { label: "Roy, Chip", value: "Roy" },
     { label: "Nehls, Troy", value: "Nehls" },
-    { label: "Gonzales, Tony", value: "Gonzales" },
+    { label: "Gonzales, Tony", value: "Gonzales, Tony" },
     { label: "Van Duyne, Beth", value: "Van Duyne" },
-    { label: "Williams, Roger", value: "Williams" },
-    { label: "Gill, Brandon", value: "Gill" },
+    { label: "Williams, Roger", value: "Williams (TX)" },
+    { label: "Gill, Brandon", value: "Gill (TX)" },
     { label: "Cloud, Michael", value: "Cloud" },
     { label: "Cuellar, Henry", value: "Cuellar" },
-    { label: "Garcia, Sylvia", value: "Garcia" },
+    { label: "Garcia, Sylvia", value: "Garcia (TX)" },
     { label: "Crockett, Jasmine", value: "Crockett" },
-    { label: "Carter, John", value: "Carter" },
-    { label: "Johnson, Julie", value: "Johnson" },
+    { label: "Carter, John", value: "Carter (TX)" },
+    { label: "Johnson, Julie", value: "Johnson (TX)" },
     { label: "Veasey, Marc", value: "Veasey" },
-    { label: "Gonzalez, Vicente", value: "Gonzalez" },
+    { label: "Gonzalez, Vicente", value: "Gonzalez, V." },
     { label: "Casar, Greg", value: "Casar" },
     { label: "Babin, Brian", value: "Babin" },
     { label: "Doggett, Lloyd", value: "Doggett" },
     { label: "Hunt, Wesley", value: "Hunt" }
   ],
   "utah": [
-    { label: "Moore, Blake", value: "Moore" },
+    { label: "Moore, Blake", value: "Moore (UT)" },
     { label: "Maloy, Celeste", value: "Maloy" },
-    { label: "Kennedy, Mike", value: "Kennedy" },
+    { label: "Kennedy, Mike", value: "Kennedy (UT)" },
     { label: "Owens, Burgess", value: "Owens" }
   ],
   "vermont": [
@@ -501,8 +501,8 @@ const representatives = {
   ],
   "virginia": [
     { label: "Wittman, Robert", value: "Wittman" },
-    { label: "Kiggans, Jennifer", value: "Kiggans" },
-    { label: "Scott, Robert", value: "Scott" },
+    { label: "Kiggans, Jennifer", value: "Kiggans (VA)" },
+    { label: "Scott, Robert", value: "Scott (VA)" },
     { label: "McClellan, Jennifer", value: "McClellan" },
     { label: "McGuire, John", value: "McGuire" },
     { label: "Cline, Ben", value: "Cline" },
@@ -514,25 +514,25 @@ const representatives = {
   ],
   "washington": [
     { label: "DelBene, Suzan", value: "DelBene" },
-    { label: "Larsen, Rick", value: "Larsen" },
+    { label: "Larsen, Rick", value: "Larsen (WA)" },
     { label: "Perez, Marie", value: "Perez" },
     { label: "Newhouse, Dan", value: "Newhouse" },
     { label: "Baumgartner, Michael", value: "Baumgartner" },
     { label: "Randall, Emily", value: "Randall" },
     { label: "Jayapal, Pramila", value: "Jayapal" },
     { label: "Schrier, Kim", value: "Schrier" },
-    { label: "Smith, Adam", value: "Smith" },
+    { label: "Smith, Adam", value: "Smith (WA)" },
     { label: "Strickland, Marilyn", value: "Strickland" }
   ],
   "westvirginia": [
-    { label: "Miller, Carol", value: "Miller" },
-    { label: "Moore, Riley", value: "Moore" }
+    { label: "Miller, Carol", value: "Miller (WV)" },
+    { label: "Moore, Riley", value: "Moore (WV)" }
   ],
   "wisconsin": [
     { label: "Steil, Bryan", value: "Steil" },
     { label: "Pocan, Mark", value: "Pocan" },
     { label: "Van Orden, Derrick", value: "Van Orden" },
-    { label: "Moore, Gwen", value: "Moore" },
+    { label: "Moore, Gwen", value: "Moore (WI)" },
     { label: "Fitzgerald, Scott", value: "Fitzgerald" },
     { label: "Grothman, Glenn", value: "Grothman" },
     { label: "Tiffany, Thomas", value: "Tiffany" },
@@ -598,13 +598,8 @@ const states = [
   ];
   
 
-    const repsOptions =
-        selectedState && representatives[selectedState.value]
-            ? representatives[selectedState.value].map((rep) => ({
-                  value: rep,
-                  label: rep,
-              }))
-            : [];
+  const repsOptions = representatives[selectedState.value]; 
+
     
             const customStyles = {
                 menu: (provided) => ({
@@ -641,6 +636,8 @@ const states = [
                   cursor: "pointer",
                 }),
               };
+
+              const [selectedRepValue, setSelectedRepValue] = useState("");
 
     return (
         <div className={styles.body}>
