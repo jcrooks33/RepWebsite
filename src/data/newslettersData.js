@@ -237,6 +237,6 @@ export const newsletterData = {
       </html>
       `
     },
-    // You can add more newsletters here with different "slug" keys
+    
   };
   
