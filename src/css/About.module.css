@@ -15,13 +15,15 @@
     flex-direction: column;
     justify-content: center;
     margin-right: 4vw; /* Space between text and image */
+    text-align: left;
   }
   
   /* Main heading */
   .heading {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    color: #1c1e21;              /* Darker text for contrast */
+    color: #1c1e21;   
+    text-align: left;           /* Darker text for contrast */
   }
   
   /* Optional subheading */
@@ -29,6 +31,7 @@
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 2rem;
+    text-align: left;
   }
   
   /* Container for “How it Works” / “What You Get” blocks */

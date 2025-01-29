@@ -7,7 +7,7 @@ export default function About() {
       <div className={styles.textContainer}>
         <h1 className={styles.heading}>Stay Informed</h1>
         <p className={styles.subheading}>
-          Get quick, personalized updates on what’s happening in Congress.
+          Get quick, personalized updates on what's happening in Congress.
         </p>
 
         <div className={styles.infoBlocks}>
