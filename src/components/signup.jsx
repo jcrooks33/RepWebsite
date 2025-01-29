@@ -6,542 +6,543 @@ export default function Signup() {
     const [selectedState, setSelectedState] = useState("");
 // Example: One placeholder "Rep 1 (XX)" for each state
 const representatives = {
-    "alabama": [
-        "Moore, Barry",
-        "Figures, Shomari",
-        "Rogers, Mike",
-        "Aderholt, Robert",
-        "Strong, Dale",
-        "Palmer, Gary",
-        "Sewell, Terri"
-      ],
-      "alaska": [
-        "Begich, Nicholas"
-      ],
-      "arizona": [
-        "Schweikert, David",
-        "Crane, Elijah",
-        "Ansari, Yassamin",
-        "Stanton, Greg",
-        "Biggs, Andy",
-        "Ciscomani, Juan",
-        "Grijalva, Raul",
-        "Hamadeh, Abraham",
-        "Gosar, Paul"
-      ],
-      "arkansas": [
-        "Crawford, Eric",
-        "Hill, J.",
-        "Womack, Steve",
-        "Westerman, Bruce"
-      ],
-      "california": [
-        "LaMalfa, Doug",
-        "Huffman, Jared",
-        "Kiley, Kevin",
-        "Thompson, Mike",
-        "McClintock, Tom",
-        "Bera, Ami",
-        "Matsui, Doris",
-        "Garamendi, John",
-        "Harder, Josh",
-        "DeSaulnier, Mark",
-        "Pelosi, Nancy",
-        "Simon, Lateefah",
-        "Gray, Adam",
-        "Swalwell, Eric",
-        "Mullin, Kevin",
-        "Liccardo, Sam",
-        "Khanna, Ro",
-        "Lofgren, Zoe",
-        "Panetta, Jimmy",
-        "Fong, Vince",
-        "Costa, Jim",
-        "Valadao, David",
-        "Obernolte, Jay",
-        "Carbajal, Salud",
-        "Ruiz, Raul",
-        "Brownley, Julia",
-        "Whitesides, George",
-        "Chu, Judy",
-        "Rivas, Luz",
-        "Friedman, Laura",
-        "Cisneros, Gilbert",
-        "Sherman, Brad",
-        "Aguilar, Pete",
-        "Gomez, Jimmy",
-        "Torres, Norma",
-        "Lieu, Ted",
-        "Kamlager-Dove, Sydney",
-        "Sanchez, Linda",
-        "Takano, Mark",
-        "Kim, Young",
-        "Calvert, Ken",
-        "Garcia, Robert",
-        "Waters, Maxine",
-        "Barragan, Nanette",
-        "Tran, Derek",
-        "Correa, J.",
-        "Min, Dave",
-        "Issa, Darrell",
-        "Levin, Mike",
-        "Peters, Scott",
-        "Jacobs, Sara",
-        "Vargas, Juan"
-      ],
-      "colorado": [
-        "DeGette, Diana",
-        "Neguse, Joe",
-        "Hurd, Jeff",
-        "Boebert, Lauren",
-        "Crank, Jeff",
-        "Crow, Jason",
-        "Pettersen, Brittany",
-        "Evans, Gabe"
-      ],
-      "connecticut": [
-        "Larson, John",
-        "Courtney, Joe",
-        "DeLauro, Rosa",
-        "Himes, James",
-        "Hayes, Jahana"
-      ],
-      "delaware": [
-        "McBride, Sarah"
-      ],
-      "florida": [
-        "Vacancy",
-        "Dunn, Neal",
-        "Cammack, Kat",
-        "Bean, Aaron",
-        "Rutherford, John",
-        "Vacancy",
-        "Mills, Cory",
-        "Haridopolos, Mike",
-        "Soto, Darren",
-        "Frost, Maxwell",
-        "Webster, Daniel",
-        "Bilirakis, Gus",
-        "Luna, Anna Paulina",
-        "Castor, Kathy",
-        "Lee, Laurel",
-        "Buchanan, Vern",
-        "Steube, W.",
-        "Franklin, Scott",
-        "Donalds, Byron",
-        "Cherfilus-McCormick, Sheila",
-        "Mast, Brian",
-        "Frankel, Lois",
-        "Moskowitz, Jared",
-        "Wilson, Frederica",
-        "Wasserman Schultz, Debbie",
-        "Diaz-Balart, Mario",
-        "Salazar, Maria",
-        "Gimenez, Carlos"
-      ],
-      "georgia": [
-        "Carter, Earl",
-        "Bishop, Sanford",
-        "Jack, Brian",
-        "Johnson, Henry",
-        "Williams, Nikema",
-        "McBath, Lucy",
-        "McCormick, Richard",
-        "Scott, Austin",
-        "Clyde, Andrew",
-        "Collins, Mike",
-        "Loudermilk, Barry",
-        "Allen, Rick",
-        "Scott, David",
-        "Greene, Marjorie"
-      ],
-      "hawaii": [
-        "Case, Ed",
-        "Tokuda, Jill"
-      ],
-      "idaho": [
-        "Fulcher, Russ",
-        "Simpson, Michael"
-      ],
-      "illinois": [
-        "Jackson, Jonathan",
-        "Kelly, Robin",
-        "Ramirez, Delia",
-        "Garcia, Jesus",
-        "Quigley, Mike",
-        "Casten, Sean",
-        "Davis, Danny",
-        "Krishnamoorthi, Raja",
-        "Schakowsky, Janice",
-        "Schneider, Bradley",
-        "Foster, Bill",
-        "Bost, Mike",
-        "Budzinski, Nikki",
-        "Underwood, Lauren",
-        "Miller, Mary",
-        "LaHood, Darin",
-        "Sorensen, Eric"
-      ],
-      "indiana": [
-        "Mrvan, Frank",
-        "Yakym, Rudy",
-        "Stutzman, Marlin",
-        "Baird, James",
-        "Spartz, Victoria",
-        "Shreve, Jefferson",
-        "Carson, Andre",
-        "Messmer, Mark",
-        "Houchin, Erin"
-      ],
-      "iowa": [
-        "Miller-Meeks, Mariannette",
-        "Hinson, Ashley",
-        "Nunn, Zachary",
-        "Feenstra, Randy"
-      ],
-      "kansas": [
-        "Mann, Tracey",
-        "Schmidt, Derek",
-        "Davids, Sharice",
-        "Estes, Ron"
-      ],
-      "kentucky": [
-        "Comer, James",
-        "Guthrie, Brett",
-        "McGarvey, Morgan",
-        "Massie, Thomas",
-        "Rogers, Harold",
-        "Barr, Andy"
-      ],
-      "louisiana": [
-        "Scalise, Steve",
-        "Carter, Troy",
-        "Higgins, Clay",
-        "Johnson, Mike",
-        "Letlow, Julia",
-        "Fields, Cleo"
-      ],
-      "maine": [
-        "Pingree, Chellie",
-        "Golden, Jared"
-      ],
-      "maryland": [
-        "Harris, Andy",
-        "Olszewski, Johnny",
-        "Elfreth, Sarah",
-        "Ivey, Glenn",
-        "Hoyer, Steny",
-        "McClain Delaney, April",
-        "Mfume, Kweisi",
-        "Raskin, Jamie"
-      ],
-      "massachusetts": [
-        "Neal, Richard",
-        "McGovern, James",
-        "Trahan, Lori",
-        "Auchincloss, Jake",
-        "Clark, Katherine",
-        "Moulton, Seth",
-        "Pressley, Ayanna",
-        "Lynch, Stephen",
-        "Keating, William"
-      ],
-      "michigan": [
-        "Bergman, Jack",
-        "Moolenaar, John",
-        "Scholten, Hillary",
-        "Huizenga, Bill",
-        "Walberg, Tim",
-        "Dingell, Debbie",
-        "Barrett, Tom",
-        "McDonald Rivet, Kristen",
-        "McClain, Lisa",
-        "James, John",
-        "Stevens, Haley",
-        "Tlaib, Rashida",
-        "Thanedar, Shri"
-      ],
-      "minnesota": [
-        "Finstad, Brad",
-        "Craig, Angie",
-        "Morrison, Kelly",
-        "McCollum, Betty",
-        "Omar, Ilhan",
-        "Emmer, Tom",
-        "Fischbach, Michelle",
-        "Stauber, Pete"
-      ],
-      "mississippi": [
-        "Kelly, Trent",
-        "Thompson, Bennie",
-        "Guest, Michael",
-        "Ezell, Mike"
-      ],
-      "missouri": [
-        "Bell, Wesley",
-        "Wagner, Ann",
-        "Onder, Robert",
-        "Alford, Mark",
-        "Cleaver, Emanuel",
-        "Graves, Sam",
-        "Burlison, Eric",
-        "Smith, Jason"
-      ],
-      "montana": [
-        "Zinke, Ryan",
-        "Downing, Troy"
-      ],
-      "nebraska": [
-        "Flood, Mike",
-        "Bacon, Don",
-        "Smith, Adrian"
-      ],
-      "nevada": [
-        "Titus, Dina",
-        "Amodei, Mark",
-        "Lee, Susie",
-        "Horsford, Steven"
-      ],
-      "newhampshire": [
-        "Pappas, Chris",
-        "Goodlander, Maggie"
-      ],
-      "newjersey": [
-        "Norcross, Donald",
-        "Van Drew, Jefferson",
-        "Conaway, Herbert",
-        "Smith, Christopher",
-        "Gottheimer, Josh",
-        "Pallone, Frank",
-        "Kean, Thomas",
-        "Menendez, Robert",
-        "Pou, Nellie",
-        "McIver, LaMonica",
-        "Sherrill, Mikie",
-        "Watson Coleman, Bonnie"
-      ],
-      "newmexico": [
-        "Stansbury, Melanie",
-        "Vasquez, Gabe",
-        "Leger Fernandez, Teresa"
-      ],
-      "newyork": [
-        "LaLota, Nick",
-        "Garbarino, Andrew",
-        "Suozzi, Thomas R.",
-        "Gillen, Laura",
-        "Meeks, Gregory",
-        "Meng, Grace",
-        "Velazquez, Nydia",
-        "Jeffries, Hakeem",
-        "Clarke, Yvette",
-        "Goldman, Daniel",
-        "Malliotakis, Nicole",
-        "Nadler, Jerrold",
-        "Espaillat, Adriano",
-        "Ocasio-Cortez, Alexandria",
-        "Torres, Ritchie",
-        "Latimer, George",
-        "Lawler, Michael",
-        "Ryan, Patrick",
-        "Riley, Josh",
-        "Tonko, Paul",
-        "Stefanik, Elise",
-        "Mannion, John",
-        "Langworthy, Nicholas",
-        "Tenney, Claudia",
-        "Morelle, Joseph",
-        "Kennedy, Timothy"
-      ],
-      "northcarolina": [
-        "Davis, Donald",
-        "Ross, Deborah",
-        "Murphy, Gregory",
-        "Foushee, Valerie",
-        "Foxx, Virginia",
-        "McDowell, Addison",
-        "Rouzer, David",
-        "Harris, Mark",
-        "Hudson, Richard",
-        "Harrigan, Pat",
-        "Edwards, Chuck",
-        "Adams, Alma",
-        "Knott, Brad",
-        "Moore, Tim"
-      ],
-      "northdakota": [
-        "Fedorchak, Julie"
-      ],
-      "ohio": [
-        "Landsman, Greg",
-        "Taylor, David",
-        "Beatty, Joyce",
-        "Jordan, Jim",
-        "Latta, Robert",
-        "Rulli, Michael A.",
-        "Miller, Max",
-        "Davidson, Warren",
-        "Kaptur, Marcy",
-        "Turner, Michael",
-        "Brown, Shontel",
-        "Balderson, Troy",
-        "Sykes, Emilia",
-        "Joyce, David",
-        "Carey, Mike"
-      ],
-      "oklahoma": [
-        "Hern, Kevin",
-        "Brecheen, Josh",
-        "Lucas, Frank",
-        "Cole, Tom",
-        "Bice, Stephanie"
-      ],
-      "oregon": [
-        "Bonamici, Suzanne",
-        "Bentz, Cliff",
-        "Dexter, Maxine",
-        "Hoyle, Val",
-        "Bynum, Janelle",
-        "Salinas, Andrea"
-      ],
-      "pennsylvania": [
-        "Fitzpatrick, Brian",
-        "Boyle, Brendan",
-        "Evans, Dwight",
-        "Dean, Madeleine",
-        "Scanlon, Mary Gay",
-        "Houlahan, Chrissy",
-        "Mackenzie, Ryan",
-        "Bresnahan, Robert",
-        "Meuser, Daniel",
-        "Perry, Scott",
-        "Smucker, Lloyd",
-        "Lee, Summer",
-        "Joyce, John",
-        "Reschenthaler, Guy",
-        "Thompson, Glenn",
-        "Kelly, Mike",
-        "Deluzio, Christopher"
-      ],
-      "rhodeisland": [
-        "Amo, Gabe",
-        "Magaziner, Seth"
-      ],
-      "southcarolina": [
-        "Mace, Nancy",
-        "Wilson, Joe",
-        "Biggs, Sheri",
-        "Timmons, William",
-        "Norman, Ralph",
-        "Clyburn, James",
-        "Fry, Russell"
-      ],
-      "southdakota": [
-        "Johnson, Dusty"
-      ],
-      "tennessee": [
-        "Harshbarger, Diana",
-        "Burchett, Tim",
-        "Fleischmann, Charles",
-        "DesJarlais, Scott",
-        "Ogles, Andrew",
-        "Rose, John",
-        "Green, Mark",
-        "Kustoff, David",
-        "Cohen, Steve"
-      ],
-      "texas": [
-        "Moran, Nathaniel",
-        "Crenshaw, Dan",
-        "Self, Keith",
-        "Fallon, Pat",
-        "Gooden, Lance",
-        "Ellzey, Jake",
-        "Fletcher, Lizzie",
-        "Luttrell, Morgan",
-        "Green, Al",
-        "McCaul, Michael",
-        "Pfluger, August",
-        "Goldman, Craig",
-        "Jackson, Ronny",
-        "Weber, Randy",
-        "De La Cruz, Monica",
-        "Escobar, Veronica",
-        "Sessions, Pete",
-        "Turner, Sylvester",
-        "Arrington, Jodey",
-        "Castro, Joaquin",
-        "Roy, Chip",
-        "Nehls, Troy",
-        "Gonzales, Tony",
-        "Van Duyne, Beth",
-        "Williams, Roger",
-        "Gill, Brandon",
-        "Cloud, Michael",
-        "Cuellar, Henry",
-        "Garcia, Sylvia",
-        "Crockett, Jasmine",
-        "Carter, John",
-        "Johnson, Julie",
-        "Veasey, Marc",
-        "Gonzalez, Vicente",
-        "Casar, Greg",
-        "Babin, Brian",
-        "Doggett, Lloyd",
-        "Hunt, Wesley"
-      ],
-      "utah": [
-        "Moore, Blake",
-        "Maloy, Celeste",
-        "Kennedy, Mike",
-        "Owens, Burgess"
-      ],
-      "vermont": [
-        "Balint, Becca"
-      ],
-      "virginia": [
-        "Wittman, Robert",
-        "Kiggans, Jennifer",
-        "Scott, Robert",
-        "McClellan, Jennifer",
-        "McGuire, John",
-        "Cline, Ben",
-        "Vindman, Eugene",
-        "Beyer, Donald",
-        "Griffith, H.",
-        "Subramanyam, Suhas",
-        "Connolly, Gerald"
-      ],
-      "washington": [
-        "DelBene, Suzan",
-        "Larsen, Rick",
-        "Perez, Marie",
-        "Newhouse, Dan",
-        "Baumgartner, Michael",
-        "Randall, Emily",
-        "Jayapal, Pramila",
-        "Schrier, Kim",
-        "Smith, Adam",
-        "Strickland, Marilyn"
-      ],
-      "westvirginia": [
-        "Miller, Carol",
-        "Moore, Riley"
-      ],
-      "wisconsin": [
-        "Steil, Bryan",
-        "Pocan, Mark",
-        "Van Orden, Derrick",
-        "Moore, Gwen",
-        "Fitzgerald, Scott",
-        "Grothman, Glenn",
-        "Tiffany, Thomas",
-        "Wied, Tony"
-      ],
-      "wyoming": [
-        "Hageman, Harriet"
-      ]
-  };
+  "alabama": [
+    { label: "Moore, Barry", value: "Moore" },
+    { label: "Figures, Shomari", value: "Figures" },
+    { label: "Rogers, Mike", value: "Rogers" },
+    { label: "Aderholt, Robert", value: "Aderholt" },
+    { label: "Strong, Dale", value: "Strong" },
+    { label: "Palmer, Gary", value: "Palmer" },
+    { label: "Sewell, Terri", value: "Sewell" }
+  ],
+  "alaska": [
+    { label: "Begich, Nicholas", value: "Begich" }
+  ],
+  "arizona": [
+    { label: "Schweikert, David", value: "Schweikert" },
+    { label: "Crane, Elijah", value: "Crane" },
+    { label: "Ansari, Yassamin", value: "Ansari" },
+    { label: "Stanton, Greg", value: "Stanton" },
+    { label: "Biggs, Andy", value: "Biggs" },
+    { label: "Ciscomani, Juan", value: "Ciscomani" },
+    { label: "Grijalva, Raul", value: "Grijalva" },
+    { label: "Hamadeh, Abraham", value: "Hamadeh" },
+    { label: "Gosar, Paul", value: "Gosar" }
+  ],
+  "arkansas": [
+    { label: "Crawford, Eric", value: "Crawford" },
+    { label: "Hill, J.", value: "Hill" },
+    { label: "Womack, Steve", value: "Womack" },
+    { label: "Westerman, Bruce", value: "Westerman" }
+  ],
+  "california": [
+    { label: "LaMalfa, Doug", value: "LaMalfa" },
+    { label: "Huffman, Jared", value: "Huffman" },
+    { label: "Kiley, Kevin", value: "Kiley" },
+    { label: "Thompson, Mike", value: "Thompson" },
+    { label: "McClintock, Tom", value: "McClintock" },
+    { label: "Bera, Ami", value: "Bera" },
+    { label: "Matsui, Doris", value: "Matsui" },
+    { label: "Garamendi, John", value: "Garamendi" },
+    { label: "Harder, Josh", value: "Harder" },
+    { label: "DeSaulnier, Mark", value: "DeSaulnier" },
+    { label: "Pelosi, Nancy", value: "Pelosi" },
+    { label: "Simon, Lateefah", value: "Simon" },
+    { label: "Gray, Adam", value: "Gray" },
+    { label: "Swalwell, Eric", value: "Swalwell" },
+    { label: "Mullin, Kevin", value: "Mullin" },
+    { label: "Liccardo, Sam", value: "Liccardo" },
+    { label: "Khanna, Ro", value: "Khanna" },
+    { label: "Lofgren, Zoe", value: "Lofgren" },
+    { label: "Panetta, Jimmy", value: "Panetta" },
+    { label: "Fong, Vince", value: "Fong" },
+    { label: "Costa, Jim", value: "Costa" },
+    { label: "Valadao, David", value: "Valadao" },
+    { label: "Obernolte, Jay", value: "Obernolte" },
+    { label: "Carbajal, Salud", value: "Carbajal" },
+    { label: "Ruiz, Raul", value: "Ruiz" },
+    { label: "Brownley, Julia", value: "Brownley" },
+    { label: "Whitesides, George", value: "Whitesides" },
+    { label: "Chu, Judy", value: "Chu" },
+    { label: "Rivas, Luz", value: "Rivas" },
+    { label: "Friedman, Laura", value: "Friedman" },
+    { label: "Cisneros, Gilbert", value: "Cisneros" },
+    { label: "Sherman, Brad", value: "Sherman" },
+    { label: "Aguilar, Pete", value: "Aguilar" },
+    { label: "Gomez, Jimmy", value: "Gomez" },
+    { label: "Torres, Norma", value: "Torres" },
+    { label: "Lieu, Ted", value: "Lieu" },
+    { label: "Kamlager-Dove, Sydney", value: "Kamlager-Dove" },
+    { label: "Sanchez, Linda", value: "Sanchez" },
+    { label: "Takano, Mark", value: "Takano" },
+    { label: "Kim, Young", value: "Kim" },
+    { label: "Calvert, Ken", value: "Calvert" },
+    { label: "Garcia, Robert", value: "Garcia" },
+    { label: "Waters, Maxine", value: "Waters" },
+    { label: "Barragan, Nanette", value: "Barragan" },
+    { label: "Tran, Derek", value: "Tran" },
+    { label: "Correa, J.", value: "Correa" },
+    { label: "Min, Dave", value: "Min" },
+    { label: "Issa, Darrell", value: "Issa" },
+    { label: "Levin, Mike", value: "Levin" },
+    { label: "Peters, Scott", value: "Peters" },
+    { label: "Jacobs, Sara", value: "Jacobs" },
+    { label: "Vargas, Juan", value: "Vargas" }
+  ],
+  "colorado": [
+    { label: "DeGette, Diana", value: "DeGette" },
+    { label: "Neguse, Joe", value: "Neguse" },
+    { label: "Hurd, Jeff", value: "Hurd" },
+    { label: "Boebert, Lauren", value: "Boebert" },
+    { label: "Crank, Jeff", value: "Crank" },
+    { label: "Crow, Jason", value: "Crow" },
+    { label: "Pettersen, Brittany", value: "Pettersen" },
+    { label: "Evans, Gabe", value: "Evans" }
+  ],
+  "connecticut": [
+    { label: "Larson, John", value: "Larson" },
+    { label: "Courtney, Joe", value: "Courtney" },
+    { label: "DeLauro, Rosa", value: "DeLauro" },
+    { label: "Himes, James", value: "Himes" },
+    { label: "Hayes, Jahana", value: "Hayes" }
+  ],
+  "delaware": [
+    { label: "McBride, Sarah", value: "McBride" }
+  ],
+  "florida": [
+    { label: "Vacancy", value: "Vacancy" },
+    { label: "Dunn, Neal", value: "Dunn" },
+    { label: "Cammack, Kat", value: "Cammack" },
+    { label: "Bean, Aaron", value: "Bean" },
+    { label: "Rutherford, John", value: "Rutherford" },
+    { label: "Vacancy", value: "Vacancy" },
+    { label: "Mills, Cory", value: "Mills" },
+    { label: "Haridopolos, Mike", value: "Haridopolos" },
+    { label: "Soto, Darren", value: "Soto" },
+    { label: "Frost, Maxwell", value: "Frost" },
+    { label: "Webster, Daniel", value: "Webster" },
+    { label: "Bilirakis, Gus", value: "Bilirakis" },
+    { label: "Luna, Anna Paulina", value: "Luna" },
+    { label: "Castor, Kathy", value: "Castor" },
+    { label: "Lee, Laurel", value: "Lee" },
+    { label: "Buchanan, Vern", value: "Buchanan" },
+    { label: "Steube, W.", value: "Steube" },
+    { label: "Franklin, Scott", value: "Franklin" },
+    { label: "Donalds, Byron", value: "Donalds" },
+    { label: "Cherfilus-McCormick, Sheila", value: "Cherfilus-McCormick" },
+    { label: "Mast, Brian", value: "Mast" },
+    { label: "Frankel, Lois", value: "Frankel" },
+    { label: "Moskowitz, Jared", value: "Moskowitz" },
+    { label: "Wilson, Frederica", value: "Wilson" },
+    { label: "Wasserman Schultz, Debbie", value: "Wasserman Schultz" },
+    { label: "Diaz-Balart, Mario", value: "Diaz-Balart" },
+    { label: "Salazar, Maria", value: "Salazar" },
+    { label: "Gimenez, Carlos", value: "Gimenez" }
+  ],
+  "georgia": [
+    { label: "Carter, Earl", value: "Carter" },
+    { label: "Bishop, Sanford", value: "Bishop" },
+    { label: "Jack, Brian", value: "Jack" },
+    { label: "Johnson, Henry", value: "Johnson" },
+    { label: "Williams, Nikema", value: "Williams" },
+    { label: "McBath, Lucy", value: "McBath" },
+    { label: "McCormick, Richard", value: "McCormick" },
+    { label: "Scott, Austin", value: "Scott" },
+    { label: "Clyde, Andrew", value: "Clyde" },
+    { label: "Collins, Mike", value: "Collins" },
+    { label: "Loudermilk, Barry", value: "Loudermilk" },
+    { label: "Allen, Rick", value: "Allen" },
+    { label: "Scott, David", value: "Scott" },
+    { label: "Greene, Marjorie", value: "Greene" }
+  ],
+  "hawaii": [
+    { label: "Case, Ed", value: "Case" },
+    { label: "Tokuda, Jill", value: "Tokuda" }
+  ],
+  "idaho": [
+    { label: "Fulcher, Russ", value: "Fulcher" },
+    { label: "Simpson, Michael", value: "Simpson" }
+  ],
+  "illinois": [
+    { label: "Jackson, Jonathan", value: "Jackson" },
+    { label: "Kelly, Robin", value: "Kelly" },
+    { label: "Ramirez, Delia", value: "Ramirez" },
+    { label: "Garcia, Jesus", value: "Garcia" },
+    { label: "Quigley, Mike", value: "Quigley" },
+    { label: "Casten, Sean", value: "Casten" },
+    { label: "Davis, Danny", value: "Davis" },
+    { label: "Krishnamoorthi, Raja", value: "Krishnamoorthi" },
+    { label: "Schakowsky, Janice", value: "Schakowsky" },
+    { label: "Schneider, Bradley", value: "Schneider" },
+    { label: "Foster, Bill", value: "Foster" },
+    { label: "Bost, Mike", value: "Bost" },
+    { label: "Budzinski, Nikki", value: "Budzinski" },
+    { label: "Underwood, Lauren", value: "Underwood" },
+    { label: "Miller, Mary", value: "Miller" },
+    { label: "LaHood, Darin", value: "LaHood" },
+    { label: "Sorensen, Eric", value: "Sorensen" }
+  ],
+  "indiana": [
+    { label: "Mrvan, Frank", value: "Mrvan" },
+    { label: "Yakym, Rudy", value: "Yakym" },
+    { label: "Stutzman, Marlin", value: "Stutzman" },
+    { label: "Baird, James", value: "Baird" },
+    { label: "Spartz, Victoria", value: "Spartz" },
+    { label: "Shreve, Jefferson", value: "Shreve" },
+    { label: "Carson, Andre", value: "Carson" },
+    { label: "Messmer, Mark", value: "Messmer" },
+    { label: "Houchin, Erin", value: "Houchin" }
+  ],
+  "iowa": [
+    { label: "Miller-Meeks, Mariannette", value: "Miller-Meeks" },
+    { label: "Hinson, Ashley", value: "Hinson" },
+    { label: "Nunn, Zachary", value: "Nunn" },
+    { label: "Feenstra, Randy", value: "Feenstra" }
+  ],
+  "kansas": [
+    { label: "Mann, Tracey", value: "Mann" },
+    { label: "Schmidt, Derek", value: "Schmidt" },
+    { label: "Davids, Sharice", value: "Davids" },
+    { label: "Estes, Ron", value: "Estes" }
+  ],
+  "kentucky": [
+    { label: "Comer, James", value: "Comer" },
+    { label: "Guthrie, Brett", value: "Guthrie" },
+    { label: "McGarvey, Morgan", value: "McGarvey" },
+    { label: "Massie, Thomas", value: "Massie" },
+    { label: "Rogers, Harold", value: "Rogers" },
+    { label: "Barr, Andy", value: "Barr" }
+  ],
+  "louisiana": [
+    { label: "Scalise, Steve", value: "Scalise" },
+    { label: "Carter, Troy", value: "Carter" },
+    { label: "Higgins, Clay", value: "Higgins" },
+    { label: "Johnson, Mike", value: "Johnson" },
+    { label: "Letlow, Julia", value: "Letlow" },
+    { label: "Fields, Cleo", value: "Fields" }
+  ],
+  "maine": [
+    { label: "Pingree, Chellie", value: "Pingree" },
+    { label: "Golden, Jared", value: "Golden" }
+  ],
+  "maryland": [
+    { label: "Harris, Andy", value: "Harris" },
+    { label: "Olszewski, Johnny", value: "Olszewski" },
+    { label: "Elfreth, Sarah", value: "Elfreth" },
+    { label: "Ivey, Glenn", value: "Ivey" },
+    { label: "Hoyer, Steny", value: "Hoyer" },
+    { label: "McClain Delaney, April", value: "McClain Delaney" },
+    { label: "Mfume, Kweisi", value: "Mfume" },
+    { label: "Raskin, Jamie", value: "Raskin" }
+  ],
+  "massachusetts": [
+    { label: "Neal, Richard", value: "Neal" },
+    { label: "McGovern, James", value: "McGovern" },
+    { label: "Trahan, Lori", value: "Trahan" },
+    { label: "Auchincloss, Jake", value: "Auchincloss" },
+    { label: "Clark, Katherine", value: "Clark" },
+    { label: "Moulton, Seth", value: "Moulton" },
+    { label: "Pressley, Ayanna", value: "Pressley" },
+    { label: "Lynch, Stephen", value: "Lynch" },
+    { label: "Keating, William", value: "Keating" }
+  ],
+  "michigan": [
+    { label: "Bergman, Jack", value: "Bergman" },
+    { label: "Moolenaar, John", value: "Moolenaar" },
+    { label: "Scholten, Hillary", value: "Scholten" },
+    { label: "Huizenga, Bill", value: "Huizenga" },
+    { label: "Walberg, Tim", value: "Walberg" },
+    { label: "Dingell, Debbie", value: "Dingell" },
+    { label: "Barrett, Tom", value: "Barrett" },
+    { label: "McDonald Rivet, Kristen", value: "McDonald Rivet" },
+    { label: "McClain, Lisa", value: "McClain" },
+    { label: "James, John", value: "James" },
+    { label: "Stevens, Haley", value: "Stevens" },
+    { label: "Tlaib, Rashida", value: "Tlaib" },
+    { label: "Thanedar, Shri", value: "Thanedar" }
+  ],
+  "minnesota": [
+    { label: "Finstad, Brad", value: "Finstad" },
+    { label: "Craig, Angie", value: "Craig" },
+    { label: "Morrison, Kelly", value: "Morrison" },
+    { label: "McCollum, Betty", value: "McCollum" },
+    { label: "Omar, Ilhan", value: "Omar" },
+    { label: "Emmer, Tom", value: "Emmer" },
+    { label: "Fischbach, Michelle", value: "Fischbach" },
+    { label: "Stauber, Pete", value: "Stauber" }
+  ],
+  "mississippi": [
+    { label: "Kelly, Trent", value: "Kelly" },
+    { label: "Thompson, Bennie", value: "Thompson" },
+    { label: "Guest, Michael", value: "Guest" },
+    { label: "Ezell, Mike", value: "Ezell" }
+  ],
+  "missouri": [
+    { label: "Bell, Wesley", value: "Bell" },
+    { label: "Wagner, Ann", value: "Wagner" },
+    { label: "Onder, Robert", value: "Onder" },
+    { label: "Alford, Mark", value: "Alford" },
+    { label: "Cleaver, Emanuel", value: "Cleaver" },
+    { label: "Graves, Sam", value: "Graves" },
+    { label: "Burlison, Eric", value: "Burlison" },
+    { label: "Smith, Jason", value: "Smith" }
+  ],
+  "montana": [
+    { label: "Zinke, Ryan", value: "Zinke" },
+    { label: "Downing, Troy", value: "Downing" }
+  ],
+  "nebraska": [
+    { label: "Flood, Mike", value: "Flood" },
+    { label: "Bacon, Don", value: "Bacon" },
+    { label: "Smith, Adrian", value: "Smith" }
+  ],
+  "nevada": [
+    { label: "Titus, Dina", value: "Titus" },
+    { label: "Amodei, Mark", value: "Amodei" },
+    { label: "Lee, Susie", value: "Lee" },
+    { label: "Horsford, Steven", value: "Horsford" }
+  ],
+  "newhampshire": [
+    { label: "Pappas, Chris", value: "Pappas" },
+    { label: "Goodlander, Maggie", value: "Goodlander" }
+  ],
+  "newjersey": [
+    { label: "Norcross, Donald", value: "Norcross" },
+    { label: "Van Drew, Jefferson", value: "Van Drew" },
+    { label: "Conaway, Herbert", value: "Conaway" },
+    { label: "Smith, Christopher", value: "Smith" },
+    { label: "Gottheimer, Josh", value: "Gottheimer" },
+    { label: "Pallone, Frank", value: "Pallone" },
+    { label: "Kean, Thomas", value: "Kean" },
+    { label: "Menendez, Robert", value: "Menendez" },
+    { label: "Pou, Nellie", value: "Pou" },
+    { label: "McIver, LaMonica", value: "McIver" },
+    { label: "Sherrill, Mikie", value: "Sherrill" },
+    { label: "Watson Coleman, Bonnie", value: "Watson Coleman" }
+  ],
+  "newmexico": [
+    { label: "Stansbury, Melanie", value: "Stansbury" },
+    { label: "Vasquez, Gabe", value: "Vasquez" },
+    { label: "Leger Fernandez, Teresa", value: "Leger Fernandez" }
+  ],
+  "newyork": [
+    { label: "LaLota, Nick", value: "LaLota" },
+    { label: "Garbarino, Andrew", value: "Garbarino" },
+    { label: "Suozzi, Thomas R.", value: "Suozzi" },
+    { label: "Gillen, Laura", value: "Gillen" },
+    { label: "Meeks, Gregory", value: "Meeks" },
+    { label: "Meng, Grace", value: "Meng" },
+    { label: "Velazquez, Nydia", value: "Velazquez" },
+    { label: "Jeffries, Hakeem", value: "Jeffries" },
+    { label: "Clarke, Yvette", value: "Clarke" },
+    { label: "Goldman, Daniel", value: "Goldman" },
+    { label: "Malliotakis, Nicole", value: "Malliotakis" },
+    { label: "Nadler, Jerrold", value: "Nadler" },
+    { label: "Espaillat, Adriano", value: "Espaillat" },
+    { label: "Ocasio-Cortez, Alexandria", value: "Ocasio-Cortez" },
+    { label: "Torres, Ritchie", value: "Torres" },
+    { label: "Latimer, George", value: "Latimer" },
+    { label: "Lawler, Michael", value: "Lawler" },
+    { label: "Ryan, Patrick", value: "Ryan" },
+    { label: "Riley, Josh", value: "Riley" },
+    { label: "Tonko, Paul", value: "Tonko" },
+    { label: "Stefanik, Elise", value: "Stefanik" },
+    { label: "Mannion, John", value: "Mannion" },
+    { label: "Langworthy, Nicholas", value: "Langworthy" },
+    { label: "Tenney, Claudia", value: "Tenney" },
+    { label: "Morelle, Joseph", value: "Morelle" },
+    { label: "Kennedy, Timothy", value: "Kennedy" }
+  ],
+  "northcarolina": [
+    { label: "Davis, Donald", value: "Davis" },
+    { label: "Ross, Deborah", value: "Ross" },
+    { label: "Murphy, Gregory", value: "Murphy" },
+    { label: "Foushee, Valerie", value: "Foushee" },
+    { label: "Foxx, Virginia", value: "Foxx" },
+    { label: "McDowell, Addison", value: "McDowell" },
+    { label: "Rouzer, David", value: "Rouzer" },
+    { label: "Harris, Mark", value: "Harris" },
+    { label: "Hudson, Richard", value: "Hudson" },
+    { label: "Harrigan, Pat", value: "Harrigan" },
+    { label: "Edwards, Chuck", value: "Edwards" },
+    { label: "Adams, Alma", value: "Adams" },
+    { label: "Knott, Brad", value: "Knott" },
+    { label: "Moore, Tim", value: "Moore" }
+  ],
+  "northdakota": [
+    { label: "Fedorchak, Julie", value: "Fedorchak" }
+  ],
+  "ohio": [
+    { label: "Landsman, Greg", value: "Landsman" },
+    { label: "Taylor, David", value: "Taylor" },
+    { label: "Beatty, Joyce", value: "Beatty" },
+    { label: "Jordan, Jim", value: "Jordan" },
+    { label: "Latta, Robert", value: "Latta" },
+    { label: "Rulli, Michael A.", value: "Rulli" },
+    { label: "Miller, Max", value: "Miller" },
+    { label: "Davidson, Warren", value: "Davidson" },
+    { label: "Kaptur, Marcy", value: "Kaptur" },
+    { label: "Turner, Michael", value: "Turner" },
+    { label: "Brown, Shontel", value: "Brown" },
+    { label: "Balderson, Troy", value: "Balderson" },
+    { label: "Sykes, Emilia", value: "Sykes" },
+    { label: "Joyce, David", value: "Joyce" },
+    { label: "Carey, Mike", value: "Carey" }
+  ],
+  "oklahoma": [
+    { label: "Hern, Kevin", value: "Hern" },
+    { label: "Brecheen, Josh", value: "Brecheen" },
+    { label: "Lucas, Frank", value: "Lucas" },
+    { label: "Cole, Tom", value: "Cole" },
+    { label: "Bice, Stephanie", value: "Bice" }
+  ],
+  "oregon": [
+    { label: "Bonamici, Suzanne", value: "Bonamici" },
+    { label: "Bentz, Cliff", value: "Bentz" },
+    { label: "Dexter, Maxine", value: "Dexter" },
+    { label: "Hoyle, Val", value: "Hoyle" },
+    { label: "Bynum, Janelle", value: "Bynum" },
+    { label: "Salinas, Andrea", value: "Salinas" }
+  ],
+  "pennsylvania": [
+    { label: "Fitzpatrick, Brian", value: "Fitzpatrick" },
+    { label: "Boyle, Brendan", value: "Boyle" },
+    { label: "Evans, Dwight", value: "Evans" },
+    { label: "Dean, Madeleine", value: "Dean" },
+    { label: "Scanlon, Mary Gay", value: "Scanlon" },
+    { label: "Houlahan, Chrissy", value: "Houlahan" },
+    { label: "Mackenzie, Ryan", value: "Mackenzie" },
+    { label: "Bresnahan, Robert", value: "Bresnahan" },
+    { label: "Meuser, Daniel", value: "Meuser" },
+    { label: "Perry, Scott", value: "Perry" },
+    { label: "Smucker, Lloyd", value: "Smucker" },
+    { label: "Lee, Summer", value: "Lee" },
+    { label: "Joyce, John", value: "Joyce" },
+    { label: "Reschenthaler, Guy", value: "Reschenthaler" },
+    { label: "Thompson, Glenn", value: "Thompson" },
+    { label: "Kelly, Mike", value: "Kelly" },
+    { label: "Deluzio, Christopher", value: "Deluzio" }
+  ],
+  "rhodeisland": [
+    { label: "Amo, Gabe", value: "Amo" },
+    { label: "Magaziner, Seth", value: "Magaziner" }
+  ],
+  "southcarolina": [
+    { label: "Mace, Nancy", value: "Mace" },
+    { label: "Wilson, Joe", value: "Wilson" },
+    { label: "Biggs, Sheri", value: "Biggs" },
+    { label: "Timmons, William", value: "Timmons" },
+    { label: "Norman, Ralph", value: "Norman" },
+    { label: "Clyburn, James", value: "Clyburn" },
+    { label: "Fry, Russell", value: "Fry" }
+  ],
+  "southdakota": [
+    { label: "Johnson, Dusty", value: "Johnson" }
+  ],
+  "tennessee": [
+    { label: "Harshbarger, Diana", value: "Harshbarger" },
+    { label: "Burchett, Tim", value: "Burchett" },
+    { label: "Fleischmann, Charles", value: "Fleischmann" },
+    { label: "DesJarlais, Scott", value: "DesJarlais" },
+    { label: "Ogles, Andrew", value: "Ogles" },
+    { label: "Rose, John", value: "Rose" },
+    { label: "Green, Mark", value: "Green" },
+    { label: "Kustoff, David", value: "Kustoff" },
+    { label: "Cohen, Steve", value: "Cohen" }
+  ],
+  "texas": [
+    { label: "Moran, Nathaniel", value: "Moran" },
+    { label: "Crenshaw, Dan", value: "Crenshaw" },
+    { label: "Self, Keith", value: "Self" },
+    { label: "Fallon, Pat", value: "Fallon" },
+    { label: "Gooden, Lance", value: "Gooden" },
+    { label: "Ellzey, Jake", value: "Ellzey" },
+    { label: "Fletcher, Lizzie", value: "Fletcher" },
+    { label: "Luttrell, Morgan", value: "Luttrell" },
+    { label: "Green, Al", value: "Green" },
+    { label: "McCaul, Michael", value: "McCaul" },
+    { label: "Pfluger, August", value: "Pfluger" },
+    { label: "Goldman, Craig", value: "Goldman" },
+    { label: "Jackson, Ronny", value: "Jackson" },
+    { label: "Weber, Randy", value: "Weber" },
+    { label: "De La Cruz, Monica", value: "De La Cruz" },
+    { label: "Escobar, Veronica", value: "Escobar" },
+    { label: "Sessions, Pete", value: "Sessions" },
+    { label: "Turner, Sylvester", value: "Turner" },
+    { label: "Arrington, Jodey", value: "Arrington" },
+    { label: "Castro, Joaquin", value: "Castro" },
+    { label: "Roy, Chip", value: "Roy" },
+    { label: "Nehls, Troy", value: "Nehls" },
+    { label: "Gonzales, Tony", value: "Gonzales" },
+    { label: "Van Duyne, Beth", value: "Van Duyne" },
+    { label: "Williams, Roger", value: "Williams" },
+    { label: "Gill, Brandon", value: "Gill" },
+    { label: "Cloud, Michael", value: "Cloud" },
+    { label: "Cuellar, Henry", value: "Cuellar" },
+    { label: "Garcia, Sylvia", value: "Garcia" },
+    { label: "Crockett, Jasmine", value: "Crockett" },
+    { label: "Carter, John", value: "Carter" },
+    { label: "Johnson, Julie", value: "Johnson" },
+    { label: "Veasey, Marc", value: "Veasey" },
+    { label: "Gonzalez, Vicente", value: "Gonzalez" },
+    { label: "Casar, Greg", value: "Casar" },
+    { label: "Babin, Brian", value: "Babin" },
+    { label: "Doggett, Lloyd", value: "Doggett" },
+    { label: "Hunt, Wesley", value: "Hunt" }
+  ],
+  "utah": [
+    { label: "Moore, Blake", value: "Moore" },
+    { label: "Maloy, Celeste", value: "Maloy" },
+    { label: "Kennedy, Mike", value: "Kennedy" },
+    { label: "Owens, Burgess", value: "Owens" }
+  ],
+  "vermont": [
+    { label: "Balint, Becca", value: "Balint" }
+  ],
+  "virginia": [
+    { label: "Wittman, Robert", value: "Wittman" },
+    { label: "Kiggans, Jennifer", value: "Kiggans" },
+    { label: "Scott, Robert", value: "Scott" },
+    { label: "McClellan, Jennifer", value: "McClellan" },
+    { label: "McGuire, John", value: "McGuire" },
+    { label: "Cline, Ben", value: "Cline" },
+    { label: "Vindman, Eugene", value: "Vindman" },
+    { label: "Beyer, Donald", value: "Beyer" },
+    { label: "Griffith, H.", value: "Griffith" },
+    { label: "Subramanyam, Suhas", value: "Subramanyam" },
+    { label: "Connolly, Gerald", value: "Connolly" }
+  ],
+  "washington": [
+    { label: "DelBene, Suzan", value: "DelBene" },
+    { label: "Larsen, Rick", value: "Larsen" },
+    { label: "Perez, Marie", value: "Perez" },
+    { label: "Newhouse, Dan", value: "Newhouse" },
+    { label: "Baumgartner, Michael", value: "Baumgartner" },
+    { label: "Randall, Emily", value: "Randall" },
+    { label: "Jayapal, Pramila", value: "Jayapal" },
+    { label: "Schrier, Kim", value: "Schrier" },
+    { label: "Smith, Adam", value: "Smith" },
+    { label: "Strickland, Marilyn", value: "Strickland" }
+  ],
+  "westvirginia": [
+    { label: "Miller, Carol", value: "Miller" },
+    { label: "Moore, Riley", value: "Moore" }
+  ],
+  "wisconsin": [
+    { label: "Steil, Bryan", value: "Steil" },
+    { label: "Pocan, Mark", value: "Pocan" },
+    { label: "Van Orden, Derrick", value: "Van Orden" },
+    { label: "Moore, Gwen", value: "Moore" },
+    { label: "Fitzgerald, Scott", value: "Fitzgerald" },
+    { label: "Grothman, Glenn", value: "Grothman" },
+    { label: "Tiffany, Thomas", value: "Tiffany" },
+    { label: "Wied, Tony", value: "Wied" }
+  ],
+  "wyoming": [
+    { label: "Hageman, Harriet", value: "Hageman" }
+  ]
+};
+
   
 const states = [
     { value: "alabama", label: "Alabama" },
@@ -685,6 +686,7 @@ const states = [
                     <Select
                         name='MMERGE9'
                         options={repsOptions}
+                        onChange={(option) => setSelectedRepValue(option.value)}
                         placeholder={
                             selectedState
                                 ? "Select your Representative"
