@@ -302,11 +302,11 @@ const representatives = {
         "Lee, Susie",
         "Horsford, Steven"
       ],
-      "new hampshire": [
+      "newhampshire": [
         "Pappas, Chris",
         "Goodlander, Maggie"
       ],
-      "new jersey": [
+      "newjersey": [
         "Norcross, Donald",
         "Van Drew, Jefferson",
         "Conaway, Herbert",
@@ -320,7 +320,7 @@ const representatives = {
         "Sherrill, Mikie",
         "Watson Coleman, Bonnie"
       ],
-      "new mexico": [
+      "newmexico": [
         "Stansbury, Melanie",
         "Vasquez, Gabe",
         "Leger Fernandez, Teresa"
@@ -353,7 +353,7 @@ const representatives = {
         "Morelle, Joseph",
         "Kennedy, Timothy"
       ],
-      "north carolina": [
+      "northcarolina": [
         "Davis, Donald",
         "Ross, Deborah",
         "Murphy, Gregory",
@@ -369,7 +369,7 @@ const representatives = {
         "Knott, Brad",
         "Moore, Tim"
       ],
-      "north dakota": [
+      "northdakota": [
         "Fedorchak, Julie"
       ],
       "ohio": [
@@ -423,11 +423,11 @@ const representatives = {
         "Kelly, Mike",
         "Deluzio, Christopher"
       ],
-      "rhode island": [
+      "rhodeisland": [
         "Amo, Gabe",
         "Magaziner, Seth"
       ],
-      "south carolina": [
+      "southcarolina": [
         "Mace, Nancy",
         "Wilson, Joe",
         "Biggs, Sheri",
@@ -436,7 +436,7 @@ const representatives = {
         "Clyburn, James",
         "Fry, Russell"
       ],
-      "south dakota": [
+      "southdakota": [
         "Johnson, Dusty"
       ],
       "tennessee": [
@@ -524,7 +524,7 @@ const representatives = {
         "Smith, Adam",
         "Strickland, Marilyn"
       ],
-      "west virginia": [
+      "westvirginia": [
         "Miller, Carol",
         "Moore, Riley"
       ],
