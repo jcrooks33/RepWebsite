@@ -676,6 +676,7 @@ const states = [
                         placeholder="Select your state"
                         onChange={setSelectedState}
                         classNamePrefix="react-select"
+                        required
                         isSearchable
                         styles={customStyles}
                     />
@@ -691,6 +692,7 @@ const states = [
                         }
                         isDisabled={!selectedState}
                         classNamePrefix="react-select"
+                        required
                         isSearchable
                         styles={customStyles}
                     />
