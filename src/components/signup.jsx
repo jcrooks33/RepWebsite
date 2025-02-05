@@ -611,6 +611,7 @@ const states = [
                   ...provided,
                   backgroundColor: "white",
                   border: "1px solid #ccc",
+                  borderRadius: "8px",
                   minHeight: "50px",
                 }),
                 singleValue: (provided) => ({
@@ -644,7 +645,8 @@ const states = [
             <div className={styles.text}>
                 <p>Get in the Know</p>
                 <p>
-                RepReport delivers quick and accurate updates about what your politicians are voting on in DC. Regardless of party.
+                {/*RepReport delivers quick and accurate updates about what your politicians are voting on in DC. Regardless of party.*/}
+                We simplify politics for you. Get personalized and accurate updates about what your politicians are voting on in DC. 
                 </p>
             </div>
             <div className={styles.form}>
