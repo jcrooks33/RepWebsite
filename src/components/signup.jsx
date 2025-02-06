@@ -110,12 +110,12 @@ const representatives = {
     { label: "McBride, Sarah", value: "McBride" }
   ],
   "florida": [
-    { label: "Vacancy", value: "Vacancy" },
+    { label: "Vacancy District 1", value: "Vacancy" },
     { label: "Dunn, Neal", value: "Dunn (FL)" },
     { label: "Cammack, Kat", value: "Cammack" },
     { label: "Bean, Aaron", value: "Bean (FL)" },
     { label: "Rutherford, John", value: "Rutherford" },
-    { label: "Vacancy", value: "Vacancy" },
+    { label: "Vacancy District 6", value: "Vacancy" },
     { label: "Mills, Cory", value: "Mills" },
     { label: "Haridopolos, Mike", value: "Haridopolos" },
     { label: "Soto, Darren", value: "Soto" },
