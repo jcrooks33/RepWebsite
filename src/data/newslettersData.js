@@ -2,7 +2,7 @@
 
 export const newsletterData = {
   "Nutria-and-Alaska":{
-    title:"Alaska and Nutria Bills",
+    title:"Alaska and Nutria Acts",
     html:`<!DOCTYPE html>
 <html lang="en">
 
@@ -743,7 +743,7 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
       </html>`
   },
   "ohia": {
-    title: "Ohia, Forests, and Abortion Acts",
+    title: "Ohia, Forests, and Abortion Survivors Protection Acts",
     html:`<!DOCTYPE html>
     <html lang="en">
       <head>

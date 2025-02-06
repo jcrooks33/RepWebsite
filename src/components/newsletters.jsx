@@ -5,7 +5,7 @@ import styles from '../css/Newsletters.module.css';
 const newsletterData = [
   {
     slug: 'Nutria-and-Alaska',
-    title: 'Alaska and Nutria Bills',
+    title: 'Alaska and Nutria Acts',
     date: '2/5/25'
   },
   {
