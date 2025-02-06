@@ -5,7 +5,21 @@ export const newsletterData = {
     title:"Alaska and Nutria Acts",
     html:`<!DOCTYPE html>
 <html lang="en">
-
+<style>
+@media only screen and (max-width: 600px) {
+              /* Let the main-content width shrink on mobile */
+              .main-content {
+                width: 90% !important;
+                max-width: 90% !important;
+                margin: 0 auto !important;
+              }
+            
+              /* Remove the forced left margin on the bullet table */
+              table[style*="margin-left: 20px"] {
+                margin-left: 0 !important;
+              }
+            }
+</style>
 <body style="margin:0; padding:0; background-color: #f5f5f5;">
   <table class="wrapper" width="100%" cellspacing="0" cellpadding="0" style="background-color: #f5f5f5;">
     <tr>
@@ -441,6 +455,21 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
       title: "Laken Riley, Protection of Women, and Illegitimate Court Counteraction Acts",
       html:`<!DOCTYPE html>
       <html lang="en">
+            <style>
+@media only screen and (max-width: 600px) {
+              /* Let the main-content width shrink on mobile */
+              .main-content {
+                width: 90% !important;
+                max-width: 90% !important;
+                margin: 0 auto !important;
+              }
+            
+              /* Remove the forced left margin on the bullet table */
+              table[style*="margin-left: 20px"] {
+                margin-left: 0 !important;
+              }
+            }
+</style>
         <head>
           <meta charset="utf-8">
           <meta name="viewport" content="width=device-width">
@@ -745,6 +774,21 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
     title: "Ohia, Forests, and Abortion Survivors Protection Acts",
     html:`<!DOCTYPE html>
     <html lang="en">
+                <style>
+@media only screen and (max-width: 600px) {
+              /* Let the main-content width shrink on mobile */
+              .main-content {
+                width: 90% !important;
+                max-width: 90% !important;
+                margin: 0 auto !important;
+              }
+            
+              /* Remove the forced left margin on the bullet table */
+              table[style*="margin-left: 20px"] {
+                margin-left: 0 !important;
+              }
+            }
+</style>
       <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
