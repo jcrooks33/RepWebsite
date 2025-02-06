@@ -183,8 +183,7 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
                                       <br>
                                       <a href="https://repreport.us17.list-manage.com/about?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=e946631473" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/unsubscribe?u=4c0f3950dc0f76487d3277a17&id=52679f637a&t=b&e=[UNIQID]&c=e946631473" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/profile?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=e946631473" style="color:#404040 !important;">update subscription preferences</a>
                                       <br>
-                                      RepReport &middot; 32 Mill St &middot; Cambridge MA 02138 &middot; Cambridge, MA 02138 &middot; USA
-                                      <br>
+                                      RepReport &middot; 9169 W State St #3391 &middot; Garden City, ID 83714 &middot; USA                                      <br>
                                       <br>
                                       
                                   </td>
