@@ -1,6 +1,207 @@
 // src/data/newslettersData.js
 
 export const newsletterData = {
+  "Nutria-and-Alaska":{
+    title:"Alaska and Nutria Bills",
+    html:`<!DOCTYPE html>
+<html lang="en">
+
+<body style="margin:0; padding:0; background-color: #f5f5f5;">
+  <table class="wrapper" width="100%" cellspacing="0" cellpadding="0" style="background-color: #f5f5f5;">
+    <tr>
+      <td align="center">
+        <table class="main-content" width="600" cellspacing="0" cellpadding="0" style="background-color: #ffffff;">
+          <!-- HEADER -->
+          <!-- Your table row for the header -->
+          <tr>
+            <td style="padding: 20px; text-align: center; background-color: #ffffff;">
+              <!-- Main headline -->
+              <div style="font-family: 'Times New Roman', serif; font-size: 32px; font-weight: bold; color: #000;">
+                Your Rep. Has Voted! 
+              </div>
+              <!-- Smaller byline below -->
+              <div style="font-family: 'Times New Roman', serif; font-size: 14px; font-weight: normal; color: #000; margin-top: 5px;">
+                By RepReport · Feb 5, 2025
+              </div>
+</td></tr><tr>
+<td style="padding:0;" height="1">
+  <table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td style="border-top:5px solid #f5f5f5; line-height:5px;"></td>
+    </tr>
+  </table>              </td>
+          </tr>
+      
+              <tr>
+    <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+      <p class="spaced" style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none; margin-bottom: 20px;">Good morning,</p>
+      <p style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none;">Your Congressional Rep. has just voted on the following bills: </p>
+      <table style="width: 100%; border-spacing: 0; margin-left: 20px;"><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Nutria Eradication and Control Reauthorization Act of 2025</i></td></tr><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Alaska Native Village Municipal Lands Restoration Act of 2025</i></td></tr></table>
+
+      <div class="hero-image" style="margin-top: 20px;">
+        <!-- Replace with your own hosted image URL or Base64 data -->
+        <img src="https://mcusercontent.com/4c0f3950dc0f76487d3277a17/images/bfea30bf-72b4-b783-b164-acbfbc15ab9d.jpg" alt="Embedded Image" style="display: block; width: 100%; height: auto;" height="auto">
+      </div>
+</td></tr><tr>
+<td style="padding:0;" height="1">
+  <table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td style="border-top:5px solid #f5f5f5; line-height:5px;"></td>
+    </tr>
+  </table>      </td>
+  </tr>
+
+
+
+
+  <!-- Single Bill Section -->
+  <tr>
+    <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+      <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">Nutria Eradication and Control Reauthorization Act of 2025 Summary:</h3>
+      <ul class="bill-summary" style="margin: 10px 0;">
+        <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Reauthorizes the Nutria Eradication and Control Act of 2003 (nutria: invasive, semi-aquatic rodent) by extending its deadline from 2025 to 2030.</li>
+        <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Nutria Eradication and Control Act of 2003: Provides financial assistance to States for nutria control and restoration of damaged marshland, wetlands, and agricultural lands, with aid proportional to the impacted area.</li>
+        
+     </ul>
+      <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">"Pork"</h3>
+      <ul class="bill-summary" style="margin: 10px 0;">
+        <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">No pork identified</li>
+      </ul>
+
+      <p style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none; margin-top: 20px;" "="">
+        Placeholder
+        voted: Placeholder. House Result: <span style="color:green">Passed</span>
+      </p>
+    </td>
+  </tr>
+   <!-- New Graphic Section -->
+
+         <tr>
+    <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+      <div style="text-align: center; margin: 20px;">
+        <h3 style="margin: 0; padding: 0; font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li style="font-size: 17px; line-height: 1.8; margin-bottom: 5px;">
+            <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 71.6% Yea, 25.7% Nay
+          </li>
+          <li style="font-size: 17px; line-height: 1.8;">
+            <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 95.3% Yea, 0.0% Nay
+          </li>
+        </ul>
+      </div>
+</td></tr><tr>
+<td style="padding:0;" height="1">
+  <table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td style="border-top:5px solid #f5f5f5; line-height:5px;"></td>
+    </tr>
+  </table>      </td>
+  </tr>
+
+
+  
+
+  <!-- Single Bill Section -->
+  <tr>
+    <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+      <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">Alaska Native Village Municipal Lands Restoration Act of 2025 Summary:</h3>
+      <ul class="bill-summary" style="margin: 10px 0;">
+        <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Amends the Alaska Native Claims Settlement Act to exempt Village Corporations from conveying additional land in trust for future Municipal Corporations (village corporations: entities established to manage Native village lands and resources).</li>
+        
+     </ul>
+      <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">"Pork"</h3>
+      <ul class="bill-summary" style="margin: 10px 0;">
+        <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">No pork identified</li>
+      </ul>
+
+      <p style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none; margin-top: 20px;" "="">
+        Placeholder
+        voted: Placeholder. House Result: <span style="color:green">Passed</span>
+      </p>
+    </td>
+  </tr>
+   <!-- New Graphic Section -->
+
+         <tr>
+    <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+      <div style="text-align: center; margin: 20px;">
+        <h3 style="margin: 0; padding: 0; font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+        <ul style="list-style: none; padding: 0;">
+          <li style="font-size: 17px; line-height: 1.8; margin-bottom: 5px;">
+            <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 95.4% Yea, 0.0% Nay
+          </li>
+          <li style="font-size: 17px; line-height: 1.8;">
+            <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 94.9% Yea, 0.5% Nay
+          </li>
+        </ul>
+      </div>
+</td></tr><tr>
+<td style="padding:0;" height="1">
+  <table width="100%" cellpadding="0" cellspacing="0">
+    <tr>
+      <td style="border-top:5px solid #f5f5f5; line-height:5px;"></td>
+    </tr>
+  </table>      </td>
+  </tr>
+
+
+                  <!-- FOOTER / SIGNUP SECTION -->
+          <tr>
+            <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px; text-align: center;" align="center">
+              <p style="line-height: 1.8; padding: 0; margin: 0; text-decoration: none; text-align: center; margin-top: 20px; font-size: 14px; color: black;">
+Forwarded this? <a href="https://repreport.org/" style="text-decoration: underline; color: #007bff; font-weight: bold;">Sign Up Here</a>
+</p>
+<p style="line-height: 1.8; padding: 0; margin: 0; text-decoration: none; text-align: center; font-size: 14px; color: black;">
+<a href="https://repreport.org/" style="text-decoration: none; color: #000;">https://repreport.org/</a>
+</p>
+
+            </td>
+          </tr>
+          <tr>
+            <td class="footer" style="text-align: center; font-size: 14px; color: #666666; padding: 10px;" align="center">
+              &copy; 2025 RepReport. All rights reserved.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+              <center>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+                  <tr>
+                      <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                          <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                              <tr>
+                                  <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                      This email was sent to <a href="mailto:&lt;&lt; Test Email Address &gt;&gt;" target="_blank" style="color:#404040 !important;">&lt;&lt; Test Email Address &gt;&gt;</a>
+                                      <br>
+                                      <a href="https://repreport.us17.list-manage.com/about?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=e946631473" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/unsubscribe?u=4c0f3950dc0f76487d3277a17&id=52679f637a&t=b&e=[UNIQID]&c=e946631473" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/profile?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=e946631473" style="color:#404040 !important;">update subscription preferences</a>
+                                      <br>
+                                      RepReport &middot; 32 Mill St &middot; Cambridge MA 02138 &middot; Cambridge, MA 02138 &middot; USA
+                                      <br>
+                                      <br>
+                                      
+                                  </td>
+                              </tr>
+                          </table>
+                      </td>
+                  </tr>
+              </table>
+              <style type="text/css">
+                  @media only screen and (max-width: 480px){
+                      table#canspamBar td{font-size:14px !important;}
+                      table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                  }
+              </style>
+          </center></body>
+  </html>`
+  },
     "american-relief-act": {
       title: "American Relief Act, 2025",
       html: `<!DOCTYPE html>
@@ -132,8 +333,8 @@ export const newsletterData = {
       
               <div class="hero-image" style="margin-top: 20px;">
                 <!-- Replace with your own hosted image URL or Base64 data -->
-                <img src="cid:capitol_cid" alt="Embedded Image" />
-              </div>
+                <img src="https://mcusercontent.com/4c0f3950dc0f76487d3277a17/images/bfea30bf-72b4-b783-b164-acbfbc15ab9d.jpg" alt="Embedded Image" style="display: block; width: 100%; height: auto;" height="auto">
+                </div>
                   <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;" />
             </td>
           </tr>
@@ -151,8 +352,8 @@ export const newsletterData = {
               </ul>
       
               <p style="margin-top: 20px; font-weight: bold;"">
-                Your Rep., <strong>*|MMERGE9|*</strong>, 
-                voted: <span>*|REPVOTE1|*</span>.
+                Your Rep. Placeholder, 
+                voted: Placeholder.
               </p>
             </td>
           </tr>
@@ -188,8 +389,8 @@ export const newsletterData = {
               </ul>
       
               <p style="margin-top: 20px; font-weight: bold;"">
-                Your Rep., <strong>*|MMERGE9|*</strong>, 
-                voted: <span>*|REPVOTE2|*</span>.
+                Your Rep. Placeholder, 
+                voted: Placeholder.
               </p>
             </td>
           </tr>
@@ -216,10 +417,10 @@ export const newsletterData = {
                   <tr>
                     <td class="body-section" style="text-align: center;">
                       <p style="text-align: center; margin-top: 20px; font-size: 14px; color: black;">
-        Forwarded this? <a href="https://repreport.vercel.app/" style="text-decoration: underline; color: #007bff; font-weight: bold;">Sign Up Here</a>
+        Forwarded this? <a href="https://repreport.org" style="text-decoration: underline; color: #007bff; font-weight: bold;">Sign Up Here</a>
       </p>
       <p style="text-align: center; font-size: 14px; color: black;">
-        <a href="https://repreport.vercel.app/" style="text-decoration: none; color: #000;">https://repreport.vercel.app/</a>
+        <a href="https://repreport.org" style="text-decoration: none; color: #000;">https://repreport.org</a>
       </p>
       
                     </td>
@@ -236,7 +437,6 @@ export const newsletterData = {
         </body>
       </html>
       `
-    },
-    
+    }
   };
   

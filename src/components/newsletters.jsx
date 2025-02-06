@@ -4,35 +4,16 @@ import styles from '../css/Newsletters.module.css';
 // Just an example array of objects – in reality, you might fetch this from a server
 const newsletterData = [
   {
-    slug: 'american-relief-act',
-    title: 'The American Relief Act and more',
-    date: '1/17/25'
-  },
-  {
-    slug: 'laken-riley-act',
-    title: 'The Laken Riley Act and more',
-    date: '1/21/25'
-  },
-  {
-    slug: 'cabinet-nominations',
-    title: 'Cabinet nominations and more',
-    date: '1/28/25'
+    slug: 'Nutria-and-Alaska',
+    title: 'Alaska and Nutria Bills',
+    date: '2/5/25'
   },
   {
     slug: 'american-relief-act',
     title: 'The American Relief Act and more',
     date: '1/17/25'
-  },
-  {
-    slug: 'laken-riley-act',
-    title: 'The Laken Riley Act and more',
-    date: '1/21/25'
-  },
-  {
-    slug: 'cabinet-nominations',
-    title: 'Cabinet nominations and more',
-    date: '1/28/25'
   }
+  
   // Add more here as you release more newsletters
 ];
 
@@ -60,7 +41,7 @@ export default function Newsletters() {
               {/* 2) Link to /newsletter/:slug */}
               <Link to={`/newsletter/${item.slug}`} className={styles.newsletterItem}>
                 <h3>{item.title}</h3>
-                <p>RepReport: {item.date}</p>
+                <p style={{ textAlign: 'left' }}>RepReport: {item.date}</p>
               </Link>
               {/* Light divider between items */}
               {idx < newsletterData.length - 1 && <hr className={styles.divider} />}
