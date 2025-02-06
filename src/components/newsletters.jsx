@@ -10,7 +10,7 @@ const newsletterData = [
   },
   {
     slug: 'ohia',
-    title: 'Ohia, Forests, and Abortion Acts',
+    title: 'Ohia, Forests, and Abortion Survivors Protection Acts',
     date: '1/29/25'
   },
   {
