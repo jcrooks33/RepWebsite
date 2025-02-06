@@ -9,6 +9,16 @@ const newsletterData = [
     date: '2/5/25'
   },
   {
+    slug: 'ohia',
+    title: 'Ohia, Forests, and Abortion Acts',
+    date: '1/29/25'
+  },
+  {
+    slug: 'laken-riley',
+    title: 'Laken Riley, Protection of Women, and Illegitimate Court Counteraction Acts',
+    date: '1/22/25'
+  },
+  {
     slug: 'american-relief-act',
     title: 'The American Relief Act and more',
     date: '1/17/25'

@@ -437,6 +437,614 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
         </body>
       </html>
       `
+    },
+    "laken-riley": {
+      title: "Laken Riley, Protection of Women, and Illegitimate Court Counteraction Acts",
+      html:`<!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width">
+          <title>RepReport Newsletter</title>
+          <style type="text/css">
+              body {
+          margin: 0; 
+          padding: 0;
+          font-family: 'Times New Roman', serif; /* Ensures proper Times New Roman usage */
+          background-color: #ffffff;
+          line-height: 1.8; /* Increased line spacing */
+        }
+        .body-section {
+          font-family: 'Times New Roman', serif; /* Ensures consistent font in sections */
+          line-height: 1.8; /* Consistent line spacing for sections */
+        }
+        .spaced {
+                  margin-bottom: 20px;
+        }
+        p, li {
+          font-size: 17px;
+          line-height: 1.8; /* Adds line spacing for paragraph and list items */
+        }
+            .wrapper {
+              width: 100%;
+              table-layout: fixed;
+              background-color: #ffffff;
+              padding: 20px 0;
+            }
+            .main-content {
+              max-width: 600px;
+              margin: 0 auto;
+              background-color: #ffffff;
+            }
+            h1, h2{
+              margin: 0; 
+              padding: 0;
+              font-size: 22px;
+            }
+            p{
+              margin: 0; 
+              padding: 0;
+              font-size: 20px;
+            }
+      
+             p {
+                  margin: 0;
+                  color: #000; /* Ensure text is black */
+                  text-decoration: none; /* Prevent links from being inferred */
+              }
+            h3{
+              margin: 0; 
+              padding: 0;
+              font-size: 20px;
+            }
+            a {
+              color: #007bff;
+              text-decoration: none;
+            }
+            .header {
+              background-color: black;
+              padding: 20px;
+              text-align: center;
+              font-size: 24px;
+              font-weight: bold;
+              font-family: 'Times New Roman', serif;
+              color: white;
+              border-radius: 25px;
+            }
+            .body-section {
+              padding: 20px 30px;
+            }
+            .hero-image img {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+            .bill-summary {
+              margin: 10px 0;
+            }
+            .bill-summary li {
+              margin: 0 0 10px 0;
+            }
+            .footer {
+              text-align: center;
+              font-size: 14px;
+              color: #666666;
+              padding: 10px;
+            }
+            .party-label {
+              margin: 15px 0 0 0;
+              font-size: 16px;
+            }
+          </style>
+        </head>
+        <body>
+          <table class="wrapper" width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center">
+                <table class="main-content" width="600" cellspacing="0" cellpadding="0">
+                  <!-- HEADER -->
+                  <tr>
+                    <td class="header">
+                      Your Rep. Has Voted! (RepReport)
+                    </td>
+                  </tr>
+                      <tr>
+            <td class="body-section">
+              <p class="spaced">Good Evening,</p>
+              <p>Your Congressional Rep. has just voted on the following bills: </p>
+              <table style="width: 100%; border-spacing: 0; margin-left: 20px;"><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Illegitimate Court Counteraction Act</i></td></tr><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Protection of Women and Girls in Sports Act of 2025</i></td></tr><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Laken Riley Act</i></td></tr></table>
+      
+              <div class="hero-image" style="margin-top: 20px;">
+                <!-- Replace with your own hosted image URL or Base64 data -->
+                <img src="https://mcusercontent.com/4c0f3950dc0f76487d3277a17/images/bfea30bf-72b4-b783-b164-acbfbc15ab9d.jpg" alt="Embedded Image">
+              </div>
+                  <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+            </td>
+          </tr>
+      
+      
+      
+          <!-- Single Bill Section -->
+          <tr>
+            <td class="body-section">
+              <h3 style="text-decoration: underline; font-weight: bold;">Illegitimate Court Counteraction Act Summary:</h3>
+              <ul class="bill-summary">
+                <li>"Sanctions on the ICC: Requires the President to impose property-blocking and visa-related sanctions on any foreign individual involved in the International Criminal Court’s efforts to investigate or prosecute U.S. or allied “protected persons.”"</li>
+                <li>Funding Restrictions: Immediately rescinds any U.S. funds previously appropriated for the ICC and prohibits future appropriations.</li>
+                <li>Waivers and Termination: Allows the President to waive or lift sanctions under strict conditions, including certification that the ICC has ceased all investigations targeting protected persons.</li>
+              </ul>
+              <h3 style="text-decoration: underline; font-weight: bold;">"Pork"</h3>
+              <ul class="bill-summary">
+                <li>No instances of unrelated expenditures or earmarks were identified in the bill.</li>
+              </ul>
+      
+              <p style="margin-top: 20px;" "="">
+              Placeholder
+              voted: Placeholder. House Result: <span style="color:green">Passed</span>
+              </p>
+            </td>
+          </tr>
+           <!-- New Graphic Section -->
+      
+                 <tr>
+            <td class="body-section">
+              <div style="text-align: center; margin: 20px;">
+                <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+                <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 5px;">
+                    <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 90.4% Yea, 0.0% Nay
+                  </li>
+                  <li>
+                    <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 20.9% Yea, 65.1% Nay
+                  </li>
+                </ul>
+              </div>
+                  <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+            </td>
+          </tr>
+      
+          
+      
+          <!-- Single Bill Section -->
+          <tr>
+            <td class="body-section">
+              <h3 style="text-decoration: underline; font-weight: bold;">Protection of Women and Girls in Sports Act of 2025 Summary:</h3>
+              <ul class="bill-summary">
+                <li>Definition of Sex in Athletics: Amends Title IX to define sex based solely on an individual’s reproductive biology and genetics at birth for determining eligibility in women’s and girls’ athletic programs.</li>
+                <li>Restriction on Male Participation: Prohibits male athletes from competing in women’s or girls’ sports or activities if the recipient of federal funds designates those sports for women or girls.</li>
+                <li>Study on Impacts: Directs the Comptroller General to study and report on the potential psychological, developmental, and other adverse effects on female athletes if male participation were allowed.</li>
+              </ul>
+              <h3 style="text-decoration: underline; font-weight: bold;">"Pork"</h3>
+              <ul class="bill-summary">
+                <li>No instances of unrelated or earmarked spending were identified in the bill.</li>
+              </ul>
+      
+              <p style="margin-top: 20px;" "="">
+              Placeholder                
+              voted: Placeholder. House Result: <span style="color:green">Passed</span>
+              </p>
+            </td>
+          </tr>
+           <!-- New Graphic Section -->
+      
+                 <tr>
+            <td class="body-section">
+              <div style="text-align: center; margin: 20px;">
+                <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+                <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 5px;">
+                    <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 98.6% Yea, 0.0% Nay
+                  </li>
+                  <li>
+                    <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 0.9% Yea, 95.8% Nay
+                  </li>
+                </ul>
+              </div>
+                  <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+            </td>
+          </tr>
+      
+          
+      
+          <!-- Single Bill Section -->
+          <tr>
+            <td class="body-section">
+              <h3 style="text-decoration: underline; font-weight: bold;">Laken Riley Act Summary:</h3>
+              <ul class="bill-summary">
+                <li>Mandatory Detention for Theft Offenses: Requires the Department of Homeland Security to take into custody any alien charged with or convicted of specific theft-related crimes (burglary, theft, larceny, or shoplifting).</li>
+                <li>Expanded State Legal Authority: Grants state attorneys general the right to file lawsuits against the federal government for failing to detain or remove these aliens, or for releasing them on bond or parole in violation of federal law.</li>
+                <li>Limitations on Parole and Injunctive Relief: Tightens restrictions on the use of parole and ensures that injunctions affecting enforcement are streamlined and can be brought by states to expedite legal remedies.</li>
+              </ul>
+              <h3 style="text-decoration: underline; font-weight: bold;">"Pork"</h3>
+              <ul class="bill-summary">
+                <li>No instances of unrelated or earmarked spending were identified in the bill.</li>
+              </ul>
+      
+              <p style="margin-top: 20px;" "="">
+              Placeholder
+                voted: Placeholder. House Result: <span style="color:green">Passed</span>
+              </p>
+            </td>
+          </tr>
+           <!-- New Graphic Section -->
+      
+                 <tr>
+            <td class="body-section">
+              <div style="text-align: center; margin: 20px;">
+                <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+                <ul style="list-style: none; padding: 0;">
+                  <li style="margin-bottom: 5px;">
+                    <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 98.6% Yea, 0.0% Nay
+                  </li>
+                  <li>
+                    <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 22.3% Yea, 74.0% Nay
+                  </li>
+                </ul>
+              </div>
+                  <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+            </td>
+          </tr>
+      
+                      <!-- FOOTER / SIGNUP SECTION -->
+                  <tr>
+                    <td class="body-section" style="text-align: center;">
+                      <p style="text-align: center; margin-top: 20px; font-size: 14px; color: black;">
+        Forwarded this? <a href="https://repreport.org" style="text-decoration: underline; color: #007bff; font-weight: bold;">Sign Up Here</a>
+      </p>
+      <p style="text-align: center; font-size: 14px; color: black;">
+        <a href="https://repreport.org" style="text-decoration: none; color: #000;">https://repreport.org</a>
+      </p>
+      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="footer">
+                      &copy; 2025 RepReport. All rights reserved.
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+                    <center>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <br>
+                      <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+                          <tr>
+                              <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                                  <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                                      <tr>
+                                          <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                              This email was sent to <a href="mailto:&lt;&lt; Test Email Address &gt;&gt;" target="_blank" style="color:#404040 !important;">&lt;&lt; Test Email Address &gt;&gt;</a>
+                                              <br>
+                                              <a href="https://repreport.us17.list-manage.com/about?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=fe6aa69e2f" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/unsubscribe?u=4c0f3950dc0f76487d3277a17&id=52679f637a&t=b&e=[UNIQID]&c=fe6aa69e2f" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/profile?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=fe6aa69e2f" style="color:#404040 !important;">update subscription preferences</a>
+                                              <br>
+                                              RepReport &middot; 9169 W State St #3391 &middot; Garden City, ID 83714 &middot; USA
+                                              <br>
+                                              <br>
+                                              
+                                          </td>
+                                      </tr>
+                                  </table>
+                              </td>
+                          </tr>
+                      </table>
+                      <style type="text/css">
+                          @media only screen and (max-width: 480px){
+                              table#canspamBar td{font-size:14px !important;}
+                              table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                          }
+                      </style>
+                  </center></body>
+      </html>`
+  },
+  "ohia": {
+    title: "Ohia, Forests, and Abortion Acts",
+    html:`<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>RepReport Newsletter</title>
+        <style type="text/css">
+            body {
+        margin: 0; 
+        padding: 0;
+        font-family: 'Times New Roman', serif; /* Ensures proper Times New Roman usage */
+        background-color: #ffffff;
+        line-height: 1.8; /* Increased line spacing */
+      }
+      .body-section {
+        font-family: 'Times New Roman', serif; /* Ensures consistent font in sections */
+        line-height: 1.8; /* Consistent line spacing for sections */
+      }
+      .spaced {
+                margin-bottom: 20px;
+      }
+      p, li {
+        font-size: 17px;
+        line-height: 1.8; /* Adds line spacing for paragraph and list items */
+      }
+          .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #ffffff;
+            padding: 20px 0;
+          }
+          .main-content {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+          }
+          h1, h2{
+            margin: 0; 
+            padding: 0;
+            font-size: 22px;
+          }
+          p{
+            margin: 0; 
+            padding: 0;
+            font-size: 20px;
+          }
+    
+           p {
+                margin: 0;
+                color: #000; /* Ensure text is black */
+                text-decoration: none; /* Prevent links from being inferred */
+            }
+          h3{
+            margin: 0; 
+            padding: 0;
+            font-size: 20px;
+          }
+          a {
+            color: #007bff;
+            text-decoration: none;
+          }
+          .header {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+            color: white;
+            border-radius: 25px;
+          }
+          .body-section {
+            padding: 20px 30px;
+          }
+          .hero-image img {
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          .bill-summary {
+            margin: 10px 0;
+          }
+          .bill-summary li {
+            margin: 0 0 10px 0;
+          }
+          .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #666666;
+            padding: 10px;
+          }
+          .party-label {
+            margin: 15px 0 0 0;
+            font-size: 16px;
+          }
+        </style>
+      </head>
+      <body>
+        <table class="wrapper" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center">
+              <table class="main-content" width="600" cellspacing="0" cellpadding="0">
+                <!-- HEADER -->
+                <tr>
+                  <td class="header">
+                    Your Rep. Has Voted! (RepReport)
+                  </td>
+                </tr>
+                    <tr>
+          <td class="body-section">
+            <p class="spaced">Good Evening,</p>
+            <p>Your Congressional Rep. has just voted on the following bills: </p>
+            <table style="width: 100%; border-spacing: 0; margin-left: 20px;"><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Continued Rapid Ohia Death Response Act</i></td></tr><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Fix Our Forests Act</i></td></tr><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Born-Alive Abortion Survivors Protection Act</i></td></tr></table>
+    
+            <div class="hero-image" style="margin-top: 20px;">
+              <!-- Replace with your own hosted image URL or Base64 data -->
+              <img src="https://mcusercontent.com/4c0f3950dc0f76487d3277a17/images/bfea30bf-72b4-b783-b164-acbfbc15ab9d.jpg" alt="Embedded Image">
+            </div>
+                <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+          </td>
+        </tr>
+    
+    
+    
+        <!-- Single Bill Section -->
+        <tr>
+          <td class="body-section">
+            <h3 style="text-decoration: underline; font-weight: bold;">Continued Rapid Ohia Death Response Act Summary:</h3>
+            <ul class="bill-summary">
+              <li>Mandates collaboration among the Secretary of the Interior, the Secretary of Agriculture, and the State of Hawaii to address Rapid Ohia Death. Ensures coordinated efforts and resource-sharing to combat the fungal disease.</li>
+              <li>Continues research into Rapid Ohia Death vectors, transmission, and ungulate management in control areas. Directs Federal and State agencies to work with local stakeholders and private landowners with their consent.</li>
+              <li>Provides financial support and staff for restoring native Hawaiian forests. Requires funding for ongoing research at the Institute of Pacific Islands Forestry.</li>
+            </ul>
+            <h3 style="text-decoration: underline; font-weight: bold;">"Pork"</h3>
+            <ul class="bill-summary">
+              <li>No pork identified.</li>
+            </ul>
+    
+            <p style="margin-top: 20px;" "="">
+              Rep. &lt;&lt; Test Representative &gt;&gt;
+              voted: <span>&lt;&lt; Test REPVOTE1 &gt;&gt;</span>. House Result: <span style="color:green">Passed</span>
+            </p>
+          </td>
+        </tr>
+         <!-- New Graphic Section -->
+    
+               <tr>
+          <td class="body-section">
+            <div style="text-align: center; margin: 20px;">
+              <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 5px;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 70.5% Yea, 28.6% Nay
+                </li>
+                <li>
+                  <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 95.8% Yea, 0.0% Nay
+                </li>
+              </ul>
+            </div>
+                <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+          </td>
+        </tr>
+    
+        
+    
+        <!-- Single Bill Section -->
+        <tr>
+          <td class="body-section">
+            <h3 style="text-decoration: underline; font-weight: bold;">Fix Our Forests Act Summary:</h3>
+            <ul class="bill-summary">
+              <li>Streamlines environmental reviews and forest management activities to reduce wildfire risk on federal, tribal, and other lands. This includes designating high-risk "firesheds," creating a Fireshed Center, and using expedited authorities to plan and implement projects more efficiently.</li>
+              <li>Strengthens partnerships and collaboration among federal, state, tribal, and local entities for wildfire mitigation. The bill expands Good Neighbor Authority, enhances stewardship contracting, and promotes community-based solutions to wildfire threats.</li>
+              <li>Supports new programs and research aimed at proactive wildfire reduction and post-fire recovery. This includes improving tracking of hazardous fuels treatments, launching a public-private technology pilot program, and boosting community resilience through grants and technical assistance.</li>
+            </ul>
+            <h3 style="text-decoration: underline; font-weight: bold;">"Pork"</h3>
+            <ul class="bill-summary">
+              <li>No pork identified.</li>
+            </ul>
+    
+            <p style="margin-top: 20px;" "="">
+              Rep. &lt;&lt; Test Representative &gt;&gt;
+              voted: <span>&lt;&lt; Test REPVOTE2 &gt;&gt;</span>. House Result: <span style="color:green">Passed</span>
+            </p>
+          </td>
+        </tr>
+         <!-- New Graphic Section -->
+    
+               <tr>
+          <td class="body-section">
+            <div style="text-align: center; margin: 20px;">
+              <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 5px;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 98.6% Yea, 0.0% Nay
+                </li>
+                <li>
+                  <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 29.8% Yea, 65.6% Nay
+                </li>
+              </ul>
+            </div>
+                <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+          </td>
+        </tr>
+    
+        
+    
+        <!-- Single Bill Section -->
+        <tr>
+          <td class="body-section">
+            <h3 style="text-decoration: underline; font-weight: bold;">Born-Alive Abortion Survivors Protection Act Summary:</h3>
+            <ul class="bill-summary">
+              <li>Establishes that an infant born alive after an abortion is a legal person entitled to all protections under U.S. law.</li>
+              <li>Mandates that health care practitioners provide the same level of care as they would for any newborn of the same gestational age and immediately transport the child to a hospital.</li>
+              <li>Imposes criminal penalties and civil remedies for failing to comply, while expressly barring prosecution of the mother.</li>
+            </ul>
+            <h3 style="text-decoration: underline; font-weight: bold;">"Pork"</h3>
+            <ul class="bill-summary">
+              <li>No pork identified.</li>
+            </ul>
+    
+            <p style="margin-top: 20px;" "="">
+              Rep. &lt;&lt; Test Representative &gt;&gt;
+              voted: <span>&lt;&lt; Test REPVOTE3 &gt;&gt;</span>. House Result: <span style="color:green">Passed</span>
+            </p>
+          </td>
+        </tr>
+         <!-- New Graphic Section -->
+    
+               <tr>
+          <td class="body-section">
+            <div style="text-align: center; margin: 20px;">
+              <h3 style="font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+              <ul style="list-style: none; padding: 0;">
+                <li style="margin-bottom: 5px;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: 99.1% Yea, 0.0% Nay
+                </li>
+                <li>
+                  <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: 0.5% Yea, 94.9% Nay
+                </li>
+              </ul>
+            </div>
+                <hr style="border: 0; border-top: 3px solid #ccc; margin: 40px 0;">
+          </td>
+        </tr>
+    
+                    <!-- FOOTER / SIGNUP SECTION -->
+                <tr>
+                  <td class="body-section" style="text-align: center;">
+                    <p style="text-align: center; margin-top: 20px; font-size: 14px; color: black;">
+      Forwarded this? <a href="https://repreport.vercel.app/" style="text-decoration: underline; color: #007bff; font-weight: bold;">Sign Up Here</a>
+    </p>
+    <p style="text-align: center; font-size: 14px; color: black;">
+      <a href="https://rep-svg-web.vercel.app/" style="text-decoration: none; color: #000;">https://rep-svg-web.vercel.app/</a>
+    </p>
+    
+                  </td>
+                </tr>
+                <tr>
+                  <td class="footer">
+                    &copy; 2025 RepReport. All rights reserved.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+                  <center>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+                        <tr>
+                            <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                                <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                                    <tr>
+                                        <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                            This email was sent to <a href="mailto:&lt;&lt; Test Email Address &gt;&gt;" target="_blank" style="color:#404040 !important;">&lt;&lt; Test Email Address &gt;&gt;</a>
+                                            <br>
+                                            <a href="https://repreport.us17.list-manage.com/about?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=f1ca7d3888" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/unsubscribe?u=4c0f3950dc0f76487d3277a17&id=52679f637a&t=b&e=[UNIQID]&c=f1ca7d3888" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/profile?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=f1ca7d3888" style="color:#404040 !important;">update subscription preferences</a>
+                                            <br>
+                                            RepReport &middot; 9169 W State St #3391 &middot; Garden City, ID 83714 &middot; USA
+                                            <br>
+                                            <br>
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <style type="text/css">
+                        @media only screen and (max-width: 480px){
+                            table#canspamBar td{font-size:14px !important;}
+                            table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                        }
+                    </style>
+                </center></body>
+    </html>`
     }
   };
   
