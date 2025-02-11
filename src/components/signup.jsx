@@ -73,7 +73,7 @@ const representatives = {
     { label: "Torres, Norma", value: "Torres (CA)" },
     { label: "Lieu, Ted", value: "Lieu" },
     { label: "Kamlager-Dove, Sydney", value: "Kamlager-Dove" },
-    { label: "Sanchez, Linda", value: "Sanchez" },
+    { label: "Sanchez, Linda", value: "Sánchez" },
     { label: "Takano, Mark", value: "Takano" },
     { label: "Kim, Young", value: "Kim" },
     { label: "Calvert, Ken", value: "Calvert" },
