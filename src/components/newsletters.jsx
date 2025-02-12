@@ -4,6 +4,11 @@ import styles from '../css/Newsletters.module.css';
 // Just an example array of objects – in reality, you might fetch this from a server
 const newsletterData = [
   {
+    slug: 'china-paperwork',
+    title: 'China Exchange Rate Transparency and Protect Small Businesses from Excessive Paperwork Acts of 2025',
+    date: '2/11/25'
+  },
+  {
     slug: 'fent-energy',
     title: 'HALT Fentanyl and Protecting American Energy Production Acts',
     date: '2/7/25'

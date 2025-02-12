@@ -1,6 +1,215 @@
 // src/data/newslettersData.js
 
 export const newsletterData = {
+  "china-paperwork":{
+    title:"China Exchange Rate Transparency and Protect Small Businesses from Excessive Paperwork Acts of 2025",
+    html:`<!DOCTYPE html>
+    <html lang="en">
+      
+      <body style="margin:0; padding:0; background-color: #f5f5f5;">
+        <table class="wrapper" width="100%" cellspacing="0" cellpadding="0" style="background-color: #f5f5f5;">
+          <tr>
+            <td align="center">
+              <table class="main-content" width="600" cellspacing="0" cellpadding="0" style="background-color: #ffffff;">
+                <!-- HEADER -->
+                <!-- Your table row for the header -->
+                <tr>
+                  <td style="padding: 20px; text-align: center; background-color: #ffffff;">
+                    <!-- Main headline -->
+                    <div style="font-family: 'Times New Roman', serif; font-size: 32px; font-weight: bold; color: #000;">
+                      Your Rep. Has Voted! 
+                    </div>
+                    <!-- Smaller byline below -->
+                    <div style="font-family: 'Times New Roman', serif; font-size: 14px; font-weight: normal; color: #000; margin-top: 5px;">
+                      By RepReport · Feb 11, 2025
+                    </div>
+    </td></tr><tr>
+      <td style="padding: 0;">
+        <div style="height: 5px; background-color: #f5f5f5; line-height: 5px; font-size: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+            
+                    <tr>
+          <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+            <p class="spaced" style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none; margin-bottom: 20px;">Good morning,</p>
+            <p style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none;">Your Congressional Rep. has just voted on the following bills: </p>
+            <table style="width: 100%; border-spacing: 0; margin-left: 20px;"><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>China Exchange Rate Transparency Act of 2023</i></td></tr><tr><td style="padding: 5px 0; color: #000; font-size: 20px;">• <i>Protect Small Businesses from Excessive Paperwork Act of 2025</i></td></tr></table>
+    
+            <div class="hero-image" style="margin-top: 20px;">
+              <!-- Replace with your own hosted image URL or Base64 data -->
+              <img src="https://mcusercontent.com/4c0f3950dc0f76487d3277a17/images/bfea30bf-72b4-b783-b164-acbfbc15ab9d.jpg" alt="Embedded Image" style="display: block; width: 100%; height: auto;" height="auto">
+            </div>
+    </td></tr><tr>
+      <td style="padding: 0;">
+        <div style="height: 5px; background-color: #f5f5f5; line-height: 5px; font-size: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+    
+    
+    
+    
+        <!-- Single Bill Section -->
+        <tr>
+          <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+            <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">China Exchange Rate Transparency Act of 2023 Summary:</h3>
+            <ul class="bill-summary" style="margin: 10px 0;">
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Instructs the U.S. Executive Director at the International Monetary Fund (IMF) to push for greater transparency in China’s exchange rate policies.</li>
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Advocates for increased IMF surveillance of China’s exchange rate practices and alignment with international standards.</li>
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Sets a sunset clause ending the Act 30 days after compliance or 7 years after enactment.</li>
+           </ul>
+            <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">"Pork"</h3>
+            <ul class="bill-summary" style="margin: 10px 0;">
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">No pork in this bill.</li>
+            </ul>
+    
+            <p style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none; margin-top: 20px;" "="">
+              Rep. Placeholder
+              voted: Placeholder. House Result: <span style="color:green">Passed</span>
+            </p>
+          </td>
+        </tr>
+         <!-- New Graphic Section -->
+    
+               <tr>
+          <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+            <div style="text-align: center; margin: 20px;">
+              <h3 style="margin: 0; padding: 0; font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+              <ul style="list-style: none; padding: 0;">
+                <li style="font-size: 17px; line-height: 1.8; margin-bottom: 5px;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: <b>89.9% Yea, 3.2% Nay</b>
+                </li>
+                <li style="font-size: 17px; line-height: 1.8;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: <b>89.3% Yea, 0.0% Nay</b>
+                </li>
+              </ul>
+            </div>
+    </td></tr><tr>
+      <td style="padding: 0;">
+        <div style="height: 5px; background-color: #f5f5f5; line-height: 5px; font-size: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+    
+    
+        
+    
+        <!-- Single Bill Section -->
+        <tr>
+          <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+            <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">Protect Small Businesses from Excessive Paperwork Act of 2025 Summary:</h3>
+            <ul class="bill-summary" style="margin: 10px 0;">
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Extends the deadline for companies formed before January 1, 2024, to file beneficial ownership reports (documents revealing the individuals who own or control a company).</li>
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">Pushes the filing deadline to January 1, 2026, instead of January 1, 2025.</li>
+              
+           </ul>
+            <h3 style="margin: 0; padding: 0; font-size: 20px; text-decoration: underline; font-weight: bold;">"Pork"</h3>
+            <ul class="bill-summary" style="margin: 10px 0;">
+              <li style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0;">No pork in this bill.</li>
+            </ul>
+    
+            <p style="line-height: 1.8; padding: 0; font-size: 20px; margin: 0; color: #000; text-decoration: none; margin-top: 20px;" "="">
+              Rep. Placeholder
+              voted: Placeholder. House Result: <span style="color:green">Passed</span>
+            </p>
+          </td>
+        </tr>
+         <!-- New Graphic Section -->
+    
+               <tr>
+          <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+            <div style="text-align: center; margin: 20px;">
+              <h3 style="margin: 0; padding: 0; font-size: 24px; font-weight: bold; margin-bottom: 10px;">Partisan Breakdown</h3>
+              <ul style="list-style: none; padding: 0;">
+                <li style="font-size: 17px; line-height: 1.8; margin-bottom: 5px;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐘</span>Republicans: <b>95.0% Yea, 0.0% Nay</b>
+                </li>
+                <li style="font-size: 17px; line-height: 1.8;">
+                  <span style="font-size: 20px; margin-right: 10px;">🐴</span>Democrats: <b>93.5% Yea, 0.0% Nay</b>
+                </li>
+              </ul>
+            </div>
+    </td></tr>
+    <tr>
+      <td style="padding: 0;">
+        <div style="height: 5px; background-color: #f5f5f5; line-height: 5px; font-size: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+    
+    <tr>
+      <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+          <div style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0; text-align: center; font-style:italic;">Thank you for reading RepReport! Please help friends and family get in the know by forwarding them this email, or having them sign up <a href="https://repreport.org" style="color:blue !important;">here</a>.</div>
+      </td>
+    </tr>
+    
+    <tr>
+      <td style="padding: 0;">
+        <div style="height: 5px; background-color: #f5f5f5; line-height: 5px; font-size: 1px;">&nbsp;</div>
+      </td>
+    </tr>
+    
+    <tr>
+      <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px;">
+        <div style="font-size: 17px; line-height: 1.8; margin: 0 0 10px 0; text-align: center; font-style:italic;">If you have feedback for us, please feel free to provide it <a href="https://forms.gle/eJ1V4UiTmZM9r58d6" style="color:blue !important;">here</a>.</div>
+      </td>
+    </tr>
+    
+    <tr>
+    <td style="padding: 0;">
+    <div style="height: 5px; background-color: #f5f5f5; line-height: 5px; font-size: 1px;">&nbsp;</div>
+    </td>
+    </tr>
+    
+                        <!-- FOOTER / SIGNUP SECTION -->
+                <tr>
+                  <td class="body-section" style="font-family: 'Times New Roman', serif; line-height: 1.8; padding: 20px 30px; text-align: center;" align="center">
+                    <p style="line-height: 1.8; padding: 0; margin: 0; text-decoration: none; text-align: center; margin-top: 20px; font-size: 14px; color: black;">
+      Forwarded this? <a href="https://repreport.org/" style="text-decoration: underline; color: #007bff; font-weight: bold;">Sign Up Here</a>
+    </p>
+    <p style="line-height: 1.8; padding: 0; margin: 0; text-decoration: none; text-align: center; font-size: 14px; color: black;">
+      <a href="https://repreport.org/" style="text-decoration: none; color: #000;">https://repreport.org/</a>
+    </p>
+    
+                  </td>
+                </tr>
+                <tr>
+                  <td class="footer" style="text-align: center; font-size: 14px; color: #666666; padding: 10px;" align="center">
+                    &copy; 2025 RepReport. All rights reserved.
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+                    <center>
+                    <br>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="canspamBarWrapper" style="background-color:#FFFFFF; border-top:1px solid #E5E5E5;">
+                        <tr>
+                            <td align="center" valign="top" style="padding-top:20px; padding-bottom:20px;">
+                                <table border="0" cellpadding="0" cellspacing="0" id="canspamBar">
+                                    <tr>
+                                        <td align="center" valign="top" style="color:#606060; font-family:Helvetica, Arial, sans-serif; font-size:11px; line-height:150%; padding-right:20px; padding-bottom:5px; padding-left:20px; text-align:center;">
+                                            This email was sent to <a href="mailto:&lt;&lt; Test Email Address &gt;&gt;" target="_blank" style="color:#404040 !important;">&lt;&lt; Test Email Address &gt;&gt;</a>
+                                            <br>
+                                            <a href="https://repreport.us17.list-manage.com/about?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=1c01cdc026" target="_blank" style="color:#404040 !important;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/unsubscribe?u=4c0f3950dc0f76487d3277a17&id=52679f637a&t=b&e=[UNIQID]&c=1c01cdc026" style="color:#404040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://repreport.us17.list-manage.com/profile?u=4c0f3950dc0f76487d3277a17&id=52679f637a&e=[UNIQID]&c=1c01cdc026" style="color:#404040 !important;">update subscription preferences</a>
+                                            <br>
+                                            RepReport &middot; 9169 W State St #3391 &middot; Garden City, ID 83714 &middot; USA
+                                            <br>
+                                            <br>
+                                            
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <style type="text/css">
+                        @media only screen and (max-width: 480px){
+                            table#canspamBar td{font-size:14px !important;}
+                            table#canspamBar td a{display:block !important; margin-top:10px !important;}
+                        }
+                    </style>
+                </center></body>
+    </html>`
+  },
   "fent-energy":{
     title:"HALT Fentanyl and Protecting American Energy Production Acts",
     html:`<!DOCTYPE html>
