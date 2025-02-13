@@ -1,7 +1,7 @@
 // src/data/newslettersData.js
 
 export const newsletterData = {
-  "china-paperwork":{
+  "china-paperwork-acts":{
     title:"China Exchange Rate Transparency and Protect Small Businesses from Excessive Paperwork Acts of 2025",
     html:`<!DOCTYPE html>
     <html lang="en">
@@ -210,7 +210,7 @@ export const newsletterData = {
                 </center></body>
     </html>`
   },
-  "fent-energy":{
+  "fentanyl-energy-acts":{
     title:"HALT Fentanyl and Protecting American Energy Production Acts",
     html:`<!DOCTYPE html>
     <html lang="en">
@@ -413,7 +413,7 @@ export const newsletterData = {
                 </center></body>
     </html>`
   },
-  "Nutria-and-Alaska":{
+  "nutria-alaska-acts":{
     title:"Alaska and Nutria Acts",
     html:`<!DOCTYPE html>
 <html lang="en">
@@ -863,7 +863,7 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
       </html>
       `
     },
-    "laken-riley": {
+    "laken-protection-illegitimate-acts": {
       title: "Laken Riley, Protection of Women, and Illegitimate Court Counteraction Acts",
       html:`<!DOCTYPE html>
       <html lang="en">
@@ -1182,7 +1182,7 @@ Forwarded this? <a href="https://repreport.org/" style="text-decoration: underli
                   </center></body>
       </html>`
   },
-  "ohia": {
+  "ohia-forests-abortion-acts": {
     title: "Ohia, Forests, and Abortion Survivors Protection Acts",
     html:`<!DOCTYPE html>
     <html lang="en">

@@ -4,27 +4,27 @@ import styles from '../css/Newsletters.module.css';
 // Just an example array of objects – in reality, you might fetch this from a server
 const newsletterData = [
   {
-    slug: 'china-paperwork',
+    slug: 'china-paperwork-acts',
     title: 'China Exchange Rate Transparency and Protect Small Businesses from Excessive Paperwork Acts of 2025',
     date: '2/11/25'
   },
   {
-    slug: 'fent-energy',
+    slug: 'fentanyl-energy-acts',
     title: 'HALT Fentanyl and Protecting American Energy Production Acts',
     date: '2/7/25'
   },
   {
-    slug: 'Nutria-and-Alaska',
+    slug: 'nutria-alaska-acts',
     title: 'Alaska and Nutria Acts',
     date: '2/5/25'
   },
   {
-    slug: 'ohia',
+    slug: 'ohia-forests-abortion-acts',
     title: 'Ohia, Forests, and Abortion Survivors Protection Acts',
     date: '1/29/25'
   },
   {
-    slug: 'laken-riley',
+    slug: 'laken-protection-illegitimate-acts',
     title: 'Laken Riley, Protection of Women, and Illegitimate Court Counteraction Acts',
     date: '1/22/25'
   },
